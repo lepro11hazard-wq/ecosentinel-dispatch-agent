@@ -41,6 +41,10 @@ Set `SAMPLE_MODE=false` in `.env` with `NVIDIA_API_KEY`, and put report photos a
 Each photo goes to NVIDIA NIM `meta/llama-3.2-11b-vision-instruct` and the reply is parsed into
 `{confidence, duplicate, reason}`. If a call fails or a photo is missing, the report is held for human review rather than rejected.
 
+When the Evaluator rejects a draft, it also logs an `explain vN` trace entry. That entry is a plain-language reason with a suggested
+fix, written by the same NIM model whenever `NVIDIA_API_KEY` is set (turn it off with `EVALUATOR_LLM_EXPLAIN=false`). Without a key, or if the call
+fails, a rule-based template is used. The explanation is generated **after** the rule-based verdict and never changes pass/fail.
+
 ## Stated scope limits
 
 - **Routing uses straight-line (haversine) distance** with a greedy nearest-neighbour order, not road distance or

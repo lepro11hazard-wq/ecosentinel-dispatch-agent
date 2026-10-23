@@ -1,7 +1,7 @@
 {
   "meta": {
     "project": "EcoSentinel Dispatch Agent (EcoLoop)",
-    "generated_at": "2026-10-23T11:30:14.817284+00:00",
+    "generated_at": "2026-10-23T11:51:29.534362+00:00",
     "service_date": "2026-10-24",
     "sample_mode": true,
     "data_notice": "SIMULATED DATA - generated for SAMPLE_MODE, not real EcoLoop production records. Zone names are real Buea neighbourhoods; coordinates are approximate.",
@@ -834,7 +834,7 @@
     },
     {
       "seq": 2,
-      "t_ms": 0.1,
+      "t_ms": 0.4,
       "agent": "Verification",
       "step": "start",
       "reasoning": "Checking 4 dump reports oldest-first using simulated vision labels, so a later re-report of the same pile is the one marked duplicate.",
@@ -842,7 +842,7 @@
     },
     {
       "seq": 3,
-      "t_ms": 0.1,
+      "t_ms": 0.4,
       "agent": "Verification",
       "step": "verdict DR-1",
       "reasoning": "VERIFIED: Confidence 0.91 >= 0.7 accept bar. Clear photo of mixed household waste piled at the roadside.",
@@ -854,7 +854,7 @@
     },
     {
       "seq": 4,
-      "t_ms": 0.2,
+      "t_ms": 0.9,
       "agent": "Verification",
       "step": "verdict DR-4",
       "reasoning": "VERIFIED: Confidence 0.78 >= 0.7 accept bar. Waste visible near the stream bank but partly hidden by vegetation.",
@@ -866,7 +866,7 @@
     },
     {
       "seq": 5,
-      "t_ms": 0.2,
+      "t_ms": 0.9,
       "agent": "Verification",
       "step": "verdict DR-2",
       "reasoning": "DUPLICATE: 16 m and 2.6 h from DR-1 - same pile (the model agrees).",
@@ -878,7 +878,7 @@
     },
     {
       "seq": 6,
-      "t_ms": 0.2,
+      "t_ms": 1.0,
       "agent": "Verification",
       "step": "verdict DR-3",
       "reasoning": "NEEDS_REVIEW: Confidence 0.45 is between 0.4 and 0.7: too weak to dispatch, too strong to discard. Image is dark and blurred; waste presence cannot be confirmed.",
@@ -890,7 +890,7 @@
     },
     {
       "seq": 7,
-      "t_ms": 0.2,
+      "t_ms": 1.0,
       "agent": "Verification",
       "step": "summary",
       "reasoning": "Only the 2 verified report(s) go to Dispatch; 1 held for human review, 1 merged as duplicates, 0 rejected.",
@@ -905,7 +905,7 @@
     },
     {
       "seq": 8,
-      "t_ms": 0.2,
+      "t_ms": 1.1,
       "agent": "Planner",
       "step": "delegate",
       "reasoning": "Handing 12 pickups and 2 verified reports to Dispatch for a first draft.",
@@ -913,7 +913,7 @@
     },
     {
       "seq": 9,
-      "t_ms": 0.5,
+      "t_ms": 1.4,
       "agent": "Dispatch",
       "step": "draft v1",
       "reasoning": "Assigned 14 stops (12 pickups + 2 verified dump reports) to each zone's home collector; ordered by straight-line nearest neighbour.",
@@ -927,7 +927,7 @@
     },
     {
       "seq": 10,
-      "t_ms": 0.6,
+      "t_ms": 1.5,
       "agent": "Evaluator",
       "step": "critique v1",
       "reasoning": "v1 REJECTED with 1 issue(s): COL-1 carries 400 kg but capacity is 300 kg (100 kg over).",
@@ -944,7 +944,19 @@
     },
     {
       "seq": 11,
-      "t_ms": 0.6,
+      "t_ms": 1.5,
+      "agent": "Evaluator",
+      "step": "explain v1",
+      "reasoning": "COL-1 would be overloaded by 100 kg; COL-2 has 145 kg spare, COL-3 has 30 kg spare.",
+      "data": {
+        "explanation_source": "template",
+        "llm_error": "NVIDIA_API_KEY not set; used rule-based template",
+        "facts_given": "Issues:\n- COL-1 carries 400 kg but capacity is 300 kg (100 kg over).\nCollectors (home zone, load/capacity, spare):\n- COL-1 (Molyko): 400/300 kg, 0 kg spare; serving Molyko\n- COL-2 (Bonduma): 105/250 kg, 145 kg spare; serving Bonduma\n- COL-3 (Great Soppo): 220/250 kg, 30 kg spare; serving Great Soppo"
+      }
+    },
+    {
+      "seq": 12,
+      "t_ms": 1.5,
       "agent": "Planner",
       "step": "route feedback",
       "reasoning": "Sending 1 fixable issue(s) back to Dispatch (revision 1 of max 3).",
@@ -955,8 +967,8 @@
       }
     },
     {
-      "seq": 12,
-      "t_ms": 0.8,
+      "seq": 13,
+      "t_ms": 1.9,
       "agent": "Dispatch",
       "step": "revision v2",
       "reasoning": "Applied 2 change(s) in response to 1 evaluator issue(s).",
@@ -985,8 +997,8 @@
       }
     },
     {
-      "seq": 13,
-      "t_ms": 0.9,
+      "seq": 14,
+      "t_ms": 1.9,
       "agent": "Evaluator",
       "step": "critique v2",
       "reasoning": "v2 PASSES: every collector within capacity, only verified reports used, every zone with demand is served.",
@@ -995,16 +1007,16 @@
       }
     },
     {
-      "seq": 14,
-      "t_ms": 0.9,
+      "seq": 15,
+      "t_ms": 2.0,
       "agent": "Planner",
       "step": "delegate",
       "reasoning": "Handing plan v2 to Risk for approval decisions.",
       "data": {}
     },
     {
-      "seq": 15,
-      "t_ms": 0.9,
+      "seq": 16,
+      "t_ms": 2.0,
       "agent": "Risk",
       "step": "flag PU-08",
       "reasoning": "volume (40 kg) is an unweighed estimate and COL-2 is at 94% of capacity - an under-estimate would overload it",
@@ -1014,8 +1026,8 @@
       }
     },
     {
-      "seq": 16,
-      "t_ms": 0.9,
+      "seq": 17,
+      "t_ms": 2.0,
       "agent": "Risk",
       "step": "flag DR-4",
       "reasoning": "photo confidence 0.78 passed verification but is below the 0.85 auto-approve bar",
@@ -1025,8 +1037,8 @@
       }
     },
     {
-      "seq": 17,
-      "t_ms": 0.9,
+      "seq": 18,
+      "t_ms": 2.0,
       "agent": "Risk",
       "step": "flag DR-3",
       "reasoning": "Confidence 0.45 is between 0.4 and 0.7: too weak to dispatch, too strong to discard. Image is dark and blurred; waste presence cannot be confirmed.",
@@ -1036,8 +1048,8 @@
       }
     },
     {
-      "seq": 18,
-      "t_ms": 0.9,
+      "seq": 19,
+      "t_ms": 2.1,
       "agent": "Risk",
       "step": "decision",
       "reasoning": "Plan status 'partially_auto_approved': 12 assignment(s) auto-approved, 3 item(s) sent to human review.",

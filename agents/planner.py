@@ -26,7 +26,7 @@ class PlannerAgent:
         deadline = time.monotonic() + config.RUN_BUDGET_S
         self.verifier = VerificationAgent(tracer, sample_mode=sample_mode, deadline=deadline)
         self.dispatcher = DispatchAgent(tracer, data["depot"], data["zones"], data["collectors"])
-        self.evaluator = EvaluatorAgent(tracer)
+        self.evaluator = EvaluatorAgent(tracer, deadline=deadline)
         self.risk = RiskAgent(tracer)
 
     def run(self):

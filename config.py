@@ -39,6 +39,10 @@ DUPLICATE_WINDOW_H = 48     # ...within this many hours are treated as the same 
 
 # Evaluator / dispatch loop
 MAX_REVISIONS = 3
+# LLM-written explanation of each rejection (text only - never affects pass/fail).
+# Used whenever NVIDIA_API_KEY is set; otherwise a rule-based template is written instead.
+EVALUATOR_LLM_EXPLAIN = os.environ.get("EVALUATOR_LLM_EXPLAIN", "true").strip().lower() not in ("false", "0", "no")
+EVALUATOR_LLM_TIMEOUT_S = 30
 
 # Risk thresholds
 RISK_CONFIDENCE_FLOOR = 0.85  # verified reports below this still need a human look

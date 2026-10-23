@@ -9,11 +9,10 @@ import json
 import mimetypes
 import re
 import time
-import urllib.error
-import urllib.request
 from datetime import datetime
 
 import config
+import nim
 from geo import haversine_m
 
 
@@ -144,25 +143,9 @@ class VerificationAgent:
             '"duplicate": <true if the photo looks like a screenshot, stock image or re-upload, else false>, '
             '"reason": "<one short sentence>"}'
         )
-        payload = {
-            "model": config.NIM_MODEL,
-            "messages": [{"role": "user", "content": f'{prompt} <img src="data:{mime};base64,{b64}" />'}],
-            "max_tokens": 200,
-            "temperature": 0.1,
-        }
-        req = urllib.request.Request(
-            config.NIM_ENDPOINT,
-            data=json.dumps(payload).encode(),
-            headers={"Authorization": f"Bearer {config.NVIDIA_API_KEY}",
-                     "Content-Type": "application/json", "Accept": "application/json"},
-        )
         try:
-            with urllib.request.urlopen(req, timeout=config.NIM_TIMEOUT_S) as resp:
-                body = json.loads(resp.read())
-            text = body["choices"][0]["message"]["content"]
-        except urllib.error.HTTPError as exc:
-            return fail(f"NIM HTTP {exc.code}: {exc.read()[:200].decode(errors='replace')}")
-        except (urllib.error.URLError, TimeoutError, KeyError, IndexError, ValueError) as exc:
-            return fail(f"NIM call failed: {exc}")
+            text = nim.chat(f'{prompt} <img src="data:{mime};base64,{b64}" />')
+        except nim.NIMError as exc:
+            return fail(str(exc))
         self.tracer.log(self.name, f"model reply {report['id']}", "Raw vision-model output received.", raw=text[:500])
         return parse_vision_response(text)
