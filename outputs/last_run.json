@@ -1,0 +1,1047 @@
+{
+  "meta": {
+    "project": "EcoSentinel Dispatch Agent (EcoLoop)",
+    "generated_at": "2026-10-23T11:30:14.817284+00:00",
+    "service_date": "2026-10-24",
+    "sample_mode": true,
+    "data_notice": "SIMULATED DATA - generated for SAMPLE_MODE, not real EcoLoop production records. Zone names are real Buea neighbourhoods; coordinates are approximate.",
+    "vision_model": null,
+    "runtime_s": 0.0,
+    "scope_limits": [
+      "Stops are ordered by straight-line (haversine) distance with a greedy nearest-neighbour heuristic, not road distance or travel time.",
+      "Collector capacity is checked by weight (kg) only; volume, time windows and shift length are not modelled.",
+      "Duplicate dump reports are detected by location (<= 75 m) and time (<= 48 h), plus the vision model's flag; photos are not compared pixel-to-pixel."
+    ],
+    "thresholds": {
+      "verify_accept": 0.7,
+      "verify_reject": 0.4,
+      "risk_confidence_floor": 0.85,
+      "risk_load_ceiling": 0.9,
+      "max_revisions": 3
+    }
+  },
+  "inputs": {
+    "notice": "SIMULATED DATA - generated for SAMPLE_MODE, not real EcoLoop production records. Zone names are real Buea neighbourhoods; coordinates are approximate.",
+    "service_date": "2026-10-24",
+    "zones": {
+      "Molyko": {
+        "lat": 4.153,
+        "lon": 9.2905
+      },
+      "Bonduma": {
+        "lat": 4.161,
+        "lon": 9.28
+      },
+      "Great Soppo": {
+        "lat": 4.145,
+        "lon": 9.244
+      }
+    },
+    "depot": {
+      "id": "DEPOT",
+      "name": "EcoSentinel depot (simulated)",
+      "lat": 4.152,
+      "lon": 9.288
+    },
+    "collectors": [
+      {
+        "id": "COL-1",
+        "name": "Collector A",
+        "home_zone": "Molyko",
+        "capacity_kg": 300,
+        "vehicle": "tricycle"
+      },
+      {
+        "id": "COL-2",
+        "name": "Collector B",
+        "home_zone": "Bonduma",
+        "capacity_kg": 250,
+        "vehicle": "tricycle"
+      },
+      {
+        "id": "COL-3",
+        "name": "Collector C",
+        "home_zone": "Great Soppo",
+        "capacity_kg": 250,
+        "vehicle": "tricycle"
+      }
+    ],
+    "pickups": [
+      {
+        "id": "PU-01",
+        "household": "HH-101",
+        "zone": "Molyko",
+        "lat": 4.1537,
+        "lon": 9.28813,
+        "kg": 60,
+        "volume_confirmed": true,
+        "requested_window": "07:00-12:00"
+      },
+      {
+        "id": "PU-02",
+        "household": "HH-102",
+        "zone": "Molyko",
+        "lat": 4.15188,
+        "lon": 9.28912,
+        "kg": 45,
+        "volume_confirmed": true,
+        "requested_window": "07:00-12:00"
+      },
+      {
+        "id": "PU-03",
+        "household": "HH-103",
+        "zone": "Molyko",
+        "lat": 4.15418,
+        "lon": 9.29138,
+        "kg": 55,
+        "volume_confirmed": false,
+        "requested_window": "07:00-12:00"
+      },
+      {
+        "id": "PU-04",
+        "household": "HH-104",
+        "zone": "Molyko",
+        "lat": 4.15496,
+        "lon": 9.28843,
+        "kg": 70,
+        "volume_confirmed": true,
+        "requested_window": "07:00-12:00"
+      },
+      {
+        "id": "PU-05",
+        "household": "HH-105",
+        "zone": "Molyko",
+        "lat": 4.15261,
+        "lon": 9.28815,
+        "kg": 40,
+        "volume_confirmed": true,
+        "requested_window": "07:00-12:00"
+      },
+      {
+        "id": "PU-06",
+        "household": "HH-106",
+        "zone": "Molyko",
+        "lat": 4.15159,
+        "lon": 9.29053,
+        "kg": 50,
+        "volume_confirmed": false,
+        "requested_window": "07:00-12:00"
+      },
+      {
+        "id": "PU-07",
+        "household": "HH-107",
+        "zone": "Bonduma",
+        "lat": 4.15863,
+        "lon": 9.27849,
+        "kg": 35,
+        "volume_confirmed": true,
+        "requested_window": "07:00-12:00"
+      },
+      {
+        "id": "PU-08",
+        "household": "HH-108",
+        "zone": "Bonduma",
+        "lat": 4.16175,
+        "lon": 9.28022,
+        "kg": 40,
+        "volume_confirmed": false,
+        "requested_window": "07:00-12:00"
+      },
+      {
+        "id": "PU-09",
+        "household": "HH-109",
+        "zone": "Bonduma",
+        "lat": 4.1596,
+        "lon": 9.28045,
+        "kg": 30,
+        "volume_confirmed": true,
+        "requested_window": "07:00-12:00"
+      },
+      {
+        "id": "PU-10",
+        "household": "HH-110",
+        "zone": "Great Soppo",
+        "lat": 4.14655,
+        "lon": 9.24153,
+        "kg": 45,
+        "volume_confirmed": true,
+        "requested_window": "07:00-12:00"
+      },
+      {
+        "id": "PU-11",
+        "household": "HH-111",
+        "zone": "Great Soppo",
+        "lat": 4.14653,
+        "lon": 9.24499,
+        "kg": 35,
+        "volume_confirmed": true,
+        "requested_window": "07:00-12:00"
+      },
+      {
+        "id": "PU-12",
+        "household": "HH-112",
+        "zone": "Great Soppo",
+        "lat": 4.1442,
+        "lon": 9.24228,
+        "kg": 50,
+        "volume_confirmed": false,
+        "requested_window": "07:00-12:00"
+      }
+    ],
+    "dump_reports": [
+      {
+        "id": "DR-1",
+        "zone": "Molyko",
+        "lat": 4.1541,
+        "lon": 9.2921,
+        "reported_at": "2026-10-23T07:40:00+01:00",
+        "photo_path": "data/photos/DR-1.jpg",
+        "description": "Pile of sacks and plastic dumped beside the drain near the junction",
+        "est_kg": 80,
+        "simulated_vision": {
+          "confidence": 0.91,
+          "duplicate": false,
+          "reason": "Clear photo of mixed household waste piled at the roadside."
+        }
+      },
+      {
+        "id": "DR-2",
+        "zone": "Molyko",
+        "lat": 4.1542,
+        "lon": 9.2922,
+        "reported_at": "2026-10-23T10:15:00+01:00",
+        "photo_path": "data/photos/DR-2.jpg",
+        "description": "Rubbish heap by the drain, smells bad",
+        "est_kg": 80,
+        "simulated_vision": {
+          "confidence": 0.86,
+          "duplicate": true,
+          "reason": "Appears to be the same roadside pile photographed from another angle."
+        }
+      },
+      {
+        "id": "DR-3",
+        "zone": "Bonduma",
+        "lat": 4.1622,
+        "lon": 9.2789,
+        "reported_at": "2026-10-23T19:05:00+01:00",
+        "photo_path": "data/photos/DR-3.jpg",
+        "description": "Dumping behind the market stalls",
+        "est_kg": 60,
+        "simulated_vision": {
+          "confidence": 0.45,
+          "duplicate": false,
+          "reason": "Image is dark and blurred; waste presence cannot be confirmed."
+        }
+      },
+      {
+        "id": "DR-4",
+        "zone": "Great Soppo",
+        "lat": 4.1438,
+        "lon": 9.2452,
+        "reported_at": "2026-10-23T08:30:00+01:00",
+        "photo_path": "data/photos/DR-4.jpg",
+        "description": "Bags thrown near the stream bank",
+        "est_kg": 90,
+        "simulated_vision": {
+          "confidence": 0.78,
+          "duplicate": false,
+          "reason": "Waste visible near the stream bank but partly hidden by vegetation."
+        }
+      }
+    ]
+  },
+  "task_plan": [
+    {
+      "task": "verify_dump_reports",
+      "agent": "Verification",
+      "why": "4 dump reports must be checked before any can be dispatched"
+    },
+    {
+      "task": "draft_routes",
+      "agent": "Dispatch",
+      "why": "12 pickups across 3 zones need assigning to 3 collectors"
+    },
+    {
+      "task": "critique_and_revise",
+      "agent": "Evaluator",
+      "why": "catch over-capacity, unverified reports and ignored zones; up to 3 revisions"
+    },
+    {
+      "task": "approve_or_escalate",
+      "agent": "Risk",
+      "why": "only assignments fully backed by evidence are auto-approved"
+    }
+  ],
+  "verification": [
+    {
+      "report_id": "DR-1",
+      "zone": "Molyko",
+      "lat": 4.1541,
+      "lon": 9.2921,
+      "est_kg": 80,
+      "reported_at": "2026-10-23T07:40:00+01:00",
+      "status": "verified",
+      "confidence": 0.91,
+      "model_duplicate": false,
+      "model_reason": "Clear photo of mixed household waste piled at the roadside.",
+      "model_error": false,
+      "duplicate_of": null,
+      "decision_reason": "Confidence 0.91 >= 0.7 accept bar. Clear photo of mixed household waste piled at the roadside."
+    },
+    {
+      "report_id": "DR-4",
+      "zone": "Great Soppo",
+      "lat": 4.1438,
+      "lon": 9.2452,
+      "est_kg": 90,
+      "reported_at": "2026-10-23T08:30:00+01:00",
+      "status": "verified",
+      "confidence": 0.78,
+      "model_duplicate": false,
+      "model_reason": "Waste visible near the stream bank but partly hidden by vegetation.",
+      "model_error": false,
+      "duplicate_of": null,
+      "decision_reason": "Confidence 0.78 >= 0.7 accept bar. Waste visible near the stream bank but partly hidden by vegetation."
+    },
+    {
+      "report_id": "DR-2",
+      "zone": "Molyko",
+      "lat": 4.1542,
+      "lon": 9.2922,
+      "est_kg": 80,
+      "reported_at": "2026-10-23T10:15:00+01:00",
+      "status": "duplicate",
+      "confidence": 0.86,
+      "model_duplicate": true,
+      "model_reason": "Appears to be the same roadside pile photographed from another angle.",
+      "model_error": false,
+      "duplicate_of": "DR-1",
+      "decision_reason": "16 m and 2.6 h from DR-1 - same pile (the model agrees)."
+    },
+    {
+      "report_id": "DR-3",
+      "zone": "Bonduma",
+      "lat": 4.1622,
+      "lon": 9.2789,
+      "est_kg": 60,
+      "reported_at": "2026-10-23T19:05:00+01:00",
+      "status": "needs_review",
+      "confidence": 0.45,
+      "model_duplicate": false,
+      "model_reason": "Image is dark and blurred; waste presence cannot be confirmed.",
+      "model_error": false,
+      "duplicate_of": null,
+      "decision_reason": "Confidence 0.45 is between 0.4 and 0.7: too weak to dispatch, too strong to discard. Image is dark and blurred; waste presence cannot be confirmed."
+    }
+  ],
+  "plan_versions": [
+    {
+      "version": 1,
+      "changes": [],
+      "loads": {
+        "COL-1": {
+          "load_kg": 400,
+          "capacity_kg": 300
+        },
+        "COL-2": {
+          "load_kg": 105,
+          "capacity_kg": 250
+        },
+        "COL-3": {
+          "load_kg": 220,
+          "capacity_kg": 250
+        }
+      },
+      "deferred": []
+    },
+    {
+      "version": 2,
+      "changes": [
+        {
+          "action": "moved",
+          "stop_id": "S-PU-04",
+          "from": "COL-1",
+          "to": "COL-2",
+          "reason": "COL-1 over capacity; COL-2 has room and its home zone is 1.15 km from this stop (closest option)"
+        },
+        {
+          "action": "moved",
+          "stop_id": "S-PU-01",
+          "from": "COL-1",
+          "to": "COL-2",
+          "reason": "COL-1 over capacity; COL-2 has room and its home zone is 1.21 km from this stop (closest option)"
+        }
+      ],
+      "loads": {
+        "COL-1": {
+          "load_kg": 270,
+          "capacity_kg": 300
+        },
+        "COL-2": {
+          "load_kg": 235,
+          "capacity_kg": 250
+        },
+        "COL-3": {
+          "load_kg": 220,
+          "capacity_kg": 250
+        }
+      },
+      "deferred": []
+    }
+  ],
+  "evaluation_history": [
+    {
+      "version": 1,
+      "passed": false,
+      "issues": [
+        {
+          "type": "over_capacity",
+          "collector_id": "COL-1",
+          "excess_kg": 100,
+          "fixable": true,
+          "detail": "COL-1 carries 400 kg but capacity is 300 kg (100 kg over)."
+        }
+      ]
+    },
+    {
+      "version": 2,
+      "passed": true,
+      "issues": []
+    }
+  ],
+  "final_plan": {
+    "version": 2,
+    "routes": {
+      "COL-1": {
+        "collector_id": "COL-1",
+        "collector_name": "Collector A",
+        "home_zone": "Molyko",
+        "capacity_kg": 300,
+        "load_kg": 270,
+        "load_pct": 90.0,
+        "distance_km_straight_line": 1.26,
+        "stops": [
+          {
+            "stop_id": "S-PU-05",
+            "kind": "pickup",
+            "source_id": "PU-05",
+            "zone": "Molyko",
+            "lat": 4.15261,
+            "lon": 9.28815,
+            "kg": 40,
+            "volume_confirmed": true,
+            "seq": 1,
+            "leg_m": 70,
+            "approval": "auto_approved",
+            "review_reasons": []
+          },
+          {
+            "stop_id": "S-PU-02",
+            "kind": "pickup",
+            "source_id": "PU-02",
+            "zone": "Molyko",
+            "lat": 4.15188,
+            "lon": 9.28912,
+            "kg": 45,
+            "volume_confirmed": true,
+            "seq": 2,
+            "leg_m": 135,
+            "approval": "auto_approved",
+            "review_reasons": []
+          },
+          {
+            "stop_id": "S-PU-06",
+            "kind": "pickup",
+            "source_id": "PU-06",
+            "zone": "Molyko",
+            "lat": 4.15159,
+            "lon": 9.29053,
+            "kg": 50,
+            "volume_confirmed": false,
+            "seq": 3,
+            "leg_m": 160,
+            "approval": "auto_approved",
+            "review_reasons": []
+          },
+          {
+            "stop_id": "S-PU-03",
+            "kind": "pickup",
+            "source_id": "PU-03",
+            "zone": "Molyko",
+            "lat": 4.15418,
+            "lon": 9.29138,
+            "kg": 55,
+            "volume_confirmed": false,
+            "seq": 4,
+            "leg_m": 303,
+            "approval": "auto_approved",
+            "review_reasons": []
+          },
+          {
+            "stop_id": "S-DR-1",
+            "kind": "dump_report",
+            "source_id": "DR-1",
+            "zone": "Molyko",
+            "lat": 4.1541,
+            "lon": 9.2921,
+            "kg": 80,
+            "volume_confirmed": false,
+            "confidence": 0.91,
+            "seq": 5,
+            "leg_m": 80,
+            "approval": "auto_approved",
+            "review_reasons": []
+          }
+        ]
+      },
+      "COL-2": {
+        "collector_id": "COL-2",
+        "collector_name": "Collector B",
+        "home_zone": "Bonduma",
+        "capacity_kg": 250,
+        "load_kg": 235,
+        "load_pct": 94.0,
+        "distance_km_straight_line": 3.28,
+        "stops": [
+          {
+            "stop_id": "S-PU-01",
+            "kind": "pickup",
+            "source_id": "PU-01",
+            "zone": "Molyko",
+            "lat": 4.1537,
+            "lon": 9.28813,
+            "kg": 60,
+            "volume_confirmed": true,
+            "seq": 1,
+            "leg_m": 190,
+            "approval": "auto_approved",
+            "review_reasons": []
+          },
+          {
+            "stop_id": "S-PU-04",
+            "kind": "pickup",
+            "source_id": "PU-04",
+            "zone": "Molyko",
+            "lat": 4.15496,
+            "lon": 9.28843,
+            "kg": 70,
+            "volume_confirmed": true,
+            "seq": 2,
+            "leg_m": 144,
+            "approval": "auto_approved",
+            "review_reasons": []
+          },
+          {
+            "stop_id": "S-PU-09",
+            "kind": "pickup",
+            "source_id": "PU-09",
+            "zone": "Bonduma",
+            "lat": 4.1596,
+            "lon": 9.28045,
+            "kg": 30,
+            "volume_confirmed": true,
+            "seq": 3,
+            "leg_m": 1024,
+            "approval": "auto_approved",
+            "review_reasons": []
+          },
+          {
+            "stop_id": "S-PU-08",
+            "kind": "pickup",
+            "source_id": "PU-08",
+            "zone": "Bonduma",
+            "lat": 4.16175,
+            "lon": 9.28022,
+            "kg": 40,
+            "volume_confirmed": false,
+            "seq": 4,
+            "leg_m": 240,
+            "approval": "human_review",
+            "review_reasons": [
+              "volume (40 kg) is an unweighed estimate and COL-2 is at 94% of capacity - an under-estimate would overload it"
+            ]
+          },
+          {
+            "stop_id": "S-PU-07",
+            "kind": "pickup",
+            "source_id": "PU-07",
+            "zone": "Bonduma",
+            "lat": 4.15863,
+            "lon": 9.27849,
+            "kg": 35,
+            "volume_confirmed": true,
+            "seq": 5,
+            "leg_m": 396,
+            "approval": "auto_approved",
+            "review_reasons": []
+          }
+        ]
+      },
+      "COL-3": {
+        "collector_id": "COL-3",
+        "collector_name": "Collector C",
+        "home_zone": "Great Soppo",
+        "capacity_kg": 250,
+        "load_kg": 220,
+        "load_pct": 88.0,
+        "distance_km_straight_line": 10.9,
+        "stops": [
+          {
+            "stop_id": "S-PU-11",
+            "kind": "pickup",
+            "source_id": "PU-11",
+            "zone": "Great Soppo",
+            "lat": 4.14653,
+            "lon": 9.24499,
+            "kg": 35,
+            "volume_confirmed": true,
+            "seq": 1,
+            "leg_m": 4809,
+            "approval": "auto_approved",
+            "review_reasons": []
+          },
+          {
+            "stop_id": "S-DR-4",
+            "kind": "dump_report",
+            "source_id": "DR-4",
+            "zone": "Great Soppo",
+            "lat": 4.1438,
+            "lon": 9.2452,
+            "kg": 90,
+            "volume_confirmed": false,
+            "confidence": 0.78,
+            "seq": 2,
+            "leg_m": 304,
+            "approval": "human_review",
+            "review_reasons": [
+              "photo confidence 0.78 passed verification but is below the 0.85 auto-approve bar"
+            ]
+          },
+          {
+            "stop_id": "S-PU-12",
+            "kind": "pickup",
+            "source_id": "PU-12",
+            "zone": "Great Soppo",
+            "lat": 4.1442,
+            "lon": 9.24228,
+            "kg": 50,
+            "volume_confirmed": false,
+            "seq": 3,
+            "leg_m": 327,
+            "approval": "auto_approved",
+            "review_reasons": []
+          },
+          {
+            "stop_id": "S-PU-10",
+            "kind": "pickup",
+            "source_id": "PU-10",
+            "zone": "Great Soppo",
+            "lat": 4.14655,
+            "lon": 9.24153,
+            "kg": 45,
+            "volume_confirmed": true,
+            "seq": 4,
+            "leg_m": 274,
+            "approval": "auto_approved",
+            "review_reasons": []
+          }
+        ]
+      }
+    },
+    "deferred": [],
+    "changes": [
+      {
+        "action": "moved",
+        "stop_id": "S-PU-04",
+        "from": "COL-1",
+        "to": "COL-2",
+        "reason": "COL-1 over capacity; COL-2 has room and its home zone is 1.15 km from this stop (closest option)"
+      },
+      {
+        "action": "moved",
+        "stop_id": "S-PU-01",
+        "from": "COL-1",
+        "to": "COL-2",
+        "reason": "COL-1 over capacity; COL-2 has room and its home zone is 1.21 km from this stop (closest option)"
+      }
+    ]
+  },
+  "risk": {
+    "plan_status": "partially_auto_approved",
+    "auto_approved": [
+      {
+        "stop_id": "S-PU-05",
+        "source_id": "PU-05",
+        "kind": "pickup",
+        "zone": "Molyko",
+        "collector_id": "COL-1",
+        "reasons": []
+      },
+      {
+        "stop_id": "S-PU-02",
+        "source_id": "PU-02",
+        "kind": "pickup",
+        "zone": "Molyko",
+        "collector_id": "COL-1",
+        "reasons": []
+      },
+      {
+        "stop_id": "S-PU-06",
+        "source_id": "PU-06",
+        "kind": "pickup",
+        "zone": "Molyko",
+        "collector_id": "COL-1",
+        "reasons": []
+      },
+      {
+        "stop_id": "S-PU-03",
+        "source_id": "PU-03",
+        "kind": "pickup",
+        "zone": "Molyko",
+        "collector_id": "COL-1",
+        "reasons": []
+      },
+      {
+        "stop_id": "S-DR-1",
+        "source_id": "DR-1",
+        "kind": "dump_report",
+        "zone": "Molyko",
+        "collector_id": "COL-1",
+        "reasons": []
+      },
+      {
+        "stop_id": "S-PU-01",
+        "source_id": "PU-01",
+        "kind": "pickup",
+        "zone": "Molyko",
+        "collector_id": "COL-2",
+        "reasons": []
+      },
+      {
+        "stop_id": "S-PU-04",
+        "source_id": "PU-04",
+        "kind": "pickup",
+        "zone": "Molyko",
+        "collector_id": "COL-2",
+        "reasons": []
+      },
+      {
+        "stop_id": "S-PU-09",
+        "source_id": "PU-09",
+        "kind": "pickup",
+        "zone": "Bonduma",
+        "collector_id": "COL-2",
+        "reasons": []
+      },
+      {
+        "stop_id": "S-PU-07",
+        "source_id": "PU-07",
+        "kind": "pickup",
+        "zone": "Bonduma",
+        "collector_id": "COL-2",
+        "reasons": []
+      },
+      {
+        "stop_id": "S-PU-11",
+        "source_id": "PU-11",
+        "kind": "pickup",
+        "zone": "Great Soppo",
+        "collector_id": "COL-3",
+        "reasons": []
+      },
+      {
+        "stop_id": "S-PU-12",
+        "source_id": "PU-12",
+        "kind": "pickup",
+        "zone": "Great Soppo",
+        "collector_id": "COL-3",
+        "reasons": []
+      },
+      {
+        "stop_id": "S-PU-10",
+        "source_id": "PU-10",
+        "kind": "pickup",
+        "zone": "Great Soppo",
+        "collector_id": "COL-3",
+        "reasons": []
+      }
+    ],
+    "human_review": [
+      {
+        "stop_id": "S-PU-08",
+        "source_id": "PU-08",
+        "kind": "pickup",
+        "zone": "Bonduma",
+        "collector_id": "COL-2",
+        "reasons": [
+          "volume (40 kg) is an unweighed estimate and COL-2 is at 94% of capacity - an under-estimate would overload it"
+        ]
+      },
+      {
+        "stop_id": "S-DR-4",
+        "source_id": "DR-4",
+        "kind": "dump_report",
+        "zone": "Great Soppo",
+        "collector_id": "COL-3",
+        "reasons": [
+          "photo confidence 0.78 passed verification but is below the 0.85 auto-approve bar"
+        ]
+      },
+      {
+        "stop_id": null,
+        "source_id": "DR-3",
+        "kind": "held_report",
+        "zone": "Bonduma",
+        "collector_id": null,
+        "reasons": [
+          "Confidence 0.45 is between 0.4 and 0.7: too weak to dispatch, too strong to discard. Image is dark and blurred; waste presence cannot be confirmed."
+        ]
+      }
+    ]
+  },
+  "trace": [
+    {
+      "seq": 1,
+      "t_ms": 0.0,
+      "agent": "Planner",
+      "step": "task plan",
+      "reasoning": "Decomposed the day into: Verification:verify_dump_reports -> Dispatch:draft_routes -> Evaluator:critique_and_revise -> Risk:approve_or_escalate. Planner sequences only; it does not approve.",
+      "data": {
+        "tasks": [
+          {
+            "task": "verify_dump_reports",
+            "agent": "Verification",
+            "why": "4 dump reports must be checked before any can be dispatched"
+          },
+          {
+            "task": "draft_routes",
+            "agent": "Dispatch",
+            "why": "12 pickups across 3 zones need assigning to 3 collectors"
+          },
+          {
+            "task": "critique_and_revise",
+            "agent": "Evaluator",
+            "why": "catch over-capacity, unverified reports and ignored zones; up to 3 revisions"
+          },
+          {
+            "task": "approve_or_escalate",
+            "agent": "Risk",
+            "why": "only assignments fully backed by evidence are auto-approved"
+          }
+        ]
+      }
+    },
+    {
+      "seq": 2,
+      "t_ms": 0.1,
+      "agent": "Verification",
+      "step": "start",
+      "reasoning": "Checking 4 dump reports oldest-first using simulated vision labels, so a later re-report of the same pile is the one marked duplicate.",
+      "data": {}
+    },
+    {
+      "seq": 3,
+      "t_ms": 0.1,
+      "agent": "Verification",
+      "step": "verdict DR-1",
+      "reasoning": "VERIFIED: Confidence 0.91 >= 0.7 accept bar. Clear photo of mixed household waste piled at the roadside.",
+      "data": {
+        "confidence": 0.91,
+        "model_duplicate": false,
+        "duplicate_of": null
+      }
+    },
+    {
+      "seq": 4,
+      "t_ms": 0.2,
+      "agent": "Verification",
+      "step": "verdict DR-4",
+      "reasoning": "VERIFIED: Confidence 0.78 >= 0.7 accept bar. Waste visible near the stream bank but partly hidden by vegetation.",
+      "data": {
+        "confidence": 0.78,
+        "model_duplicate": false,
+        "duplicate_of": null
+      }
+    },
+    {
+      "seq": 5,
+      "t_ms": 0.2,
+      "agent": "Verification",
+      "step": "verdict DR-2",
+      "reasoning": "DUPLICATE: 16 m and 2.6 h from DR-1 - same pile (the model agrees).",
+      "data": {
+        "confidence": 0.86,
+        "model_duplicate": true,
+        "duplicate_of": "DR-1"
+      }
+    },
+    {
+      "seq": 6,
+      "t_ms": 0.2,
+      "agent": "Verification",
+      "step": "verdict DR-3",
+      "reasoning": "NEEDS_REVIEW: Confidence 0.45 is between 0.4 and 0.7: too weak to dispatch, too strong to discard. Image is dark and blurred; waste presence cannot be confirmed.",
+      "data": {
+        "confidence": 0.45,
+        "model_duplicate": false,
+        "duplicate_of": null
+      }
+    },
+    {
+      "seq": 7,
+      "t_ms": 0.2,
+      "agent": "Verification",
+      "step": "summary",
+      "reasoning": "Only the 2 verified report(s) go to Dispatch; 1 held for human review, 1 merged as duplicates, 0 rejected.",
+      "data": {
+        "counts": {
+          "verified": 2,
+          "duplicate": 1,
+          "needs_review": 1,
+          "rejected": 0
+        }
+      }
+    },
+    {
+      "seq": 8,
+      "t_ms": 0.2,
+      "agent": "Planner",
+      "step": "delegate",
+      "reasoning": "Handing 12 pickups and 2 verified reports to Dispatch for a first draft.",
+      "data": {}
+    },
+    {
+      "seq": 9,
+      "t_ms": 0.5,
+      "agent": "Dispatch",
+      "step": "draft v1",
+      "reasoning": "Assigned 14 stops (12 pickups + 2 verified dump reports) to each zone's home collector; ordered by straight-line nearest neighbour.",
+      "data": {
+        "loads": {
+          "COL-1": "400/300 kg",
+          "COL-2": "105/250 kg",
+          "COL-3": "220/250 kg"
+        }
+      }
+    },
+    {
+      "seq": 10,
+      "t_ms": 0.6,
+      "agent": "Evaluator",
+      "step": "critique v1",
+      "reasoning": "v1 REJECTED with 1 issue(s): COL-1 carries 400 kg but capacity is 300 kg (100 kg over).",
+      "data": {
+        "issues": [
+          {
+            "type": "over_capacity",
+            "collector_id": "COL-1",
+            "excess_kg": 100,
+            "fixable": true
+          }
+        ]
+      }
+    },
+    {
+      "seq": 11,
+      "t_ms": 0.6,
+      "agent": "Planner",
+      "step": "route feedback",
+      "reasoning": "Sending 1 fixable issue(s) back to Dispatch (revision 1 of max 3).",
+      "data": {
+        "issue_types": [
+          "over_capacity"
+        ]
+      }
+    },
+    {
+      "seq": 12,
+      "t_ms": 0.8,
+      "agent": "Dispatch",
+      "step": "revision v2",
+      "reasoning": "Applied 2 change(s) in response to 1 evaluator issue(s).",
+      "data": {
+        "changes": [
+          {
+            "action": "moved",
+            "stop_id": "S-PU-04",
+            "from": "COL-1",
+            "to": "COL-2",
+            "reason": "COL-1 over capacity; COL-2 has room and its home zone is 1.15 km from this stop (closest option)"
+          },
+          {
+            "action": "moved",
+            "stop_id": "S-PU-01",
+            "from": "COL-1",
+            "to": "COL-2",
+            "reason": "COL-1 over capacity; COL-2 has room and its home zone is 1.21 km from this stop (closest option)"
+          }
+        ],
+        "loads": {
+          "COL-1": "270/300 kg",
+          "COL-2": "235/250 kg",
+          "COL-3": "220/250 kg"
+        }
+      }
+    },
+    {
+      "seq": 13,
+      "t_ms": 0.9,
+      "agent": "Evaluator",
+      "step": "critique v2",
+      "reasoning": "v2 PASSES: every collector within capacity, only verified reports used, every zone with demand is served.",
+      "data": {
+        "issues": []
+      }
+    },
+    {
+      "seq": 14,
+      "t_ms": 0.9,
+      "agent": "Planner",
+      "step": "delegate",
+      "reasoning": "Handing plan v2 to Risk for approval decisions.",
+      "data": {}
+    },
+    {
+      "seq": 15,
+      "t_ms": 0.9,
+      "agent": "Risk",
+      "step": "flag PU-08",
+      "reasoning": "volume (40 kg) is an unweighed estimate and COL-2 is at 94% of capacity - an under-estimate would overload it",
+      "data": {
+        "kind": "pickup",
+        "collector_id": "COL-2"
+      }
+    },
+    {
+      "seq": 16,
+      "t_ms": 0.9,
+      "agent": "Risk",
+      "step": "flag DR-4",
+      "reasoning": "photo confidence 0.78 passed verification but is below the 0.85 auto-approve bar",
+      "data": {
+        "kind": "dump_report",
+        "collector_id": "COL-3"
+      }
+    },
+    {
+      "seq": 17,
+      "t_ms": 0.9,
+      "agent": "Risk",
+      "step": "flag DR-3",
+      "reasoning": "Confidence 0.45 is between 0.4 and 0.7: too weak to dispatch, too strong to discard. Image is dark and blurred; waste presence cannot be confirmed.",
+      "data": {
+        "kind": "held_report",
+        "collector_id": null
+      }
+    },
+    {
+      "seq": 18,
+      "t_ms": 0.9,
+      "agent": "Risk",
+      "step": "decision",
+      "reasoning": "Plan status 'partially_auto_approved': 12 assignment(s) auto-approved, 3 item(s) sent to human review.",
+      "data": {}
+    }
+  ]
+}
