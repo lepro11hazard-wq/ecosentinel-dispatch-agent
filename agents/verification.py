@@ -36,8 +36,9 @@ def parse_vision_response(text):
 class VerificationAgent:
     name = "Verification"
 
-    def __init__(self, tracer, sample_mode=config.SAMPLE_MODE, deadline=None):
+    def __init__(self, tracer, world, sample_mode=config.SAMPLE_MODE, deadline=None):
         self.tracer = tracer
+        self.world = world
         self.sample_mode = sample_mode
         self.deadline = deadline or (time.monotonic() + config.RUN_BUDGET_S)
 
@@ -68,6 +69,7 @@ class VerificationAgent:
                 "decision_reason": why,
             }
             results.append(result)
+            self.world.record_verification(result)
             self.tracer.log(self.name, f"verdict {report['id']}", f"{status.upper()}: {why}",
                             confidence=vision["confidence"], model_duplicate=vision["duplicate"],
                             duplicate_of=result["duplicate_of"])

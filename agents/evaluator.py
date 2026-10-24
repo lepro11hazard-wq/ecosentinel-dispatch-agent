@@ -16,12 +16,14 @@ import nim
 class EvaluatorAgent:
     name = "Evaluator"
 
-    def __init__(self, tracer, deadline=None):
+    def __init__(self, tracer, world, deadline=None):
         self.tracer = tracer
+        self.world = world
         self.deadline = deadline or (time.monotonic() + config.RUN_BUDGET_S)
 
-    def evaluate(self, plan, verification, pickups):
+    def evaluate(self, plan, pickups):
         issues = []
+        verification = self.world.verification_results()  # read from shared state, not handed in
         verified_ids = {r["report_id"] for r in verification if r["status"] == "verified"}
         expected = {f"S-{p['id']}": p["zone"] for p in pickups}
         expected.update({f"S-{r['report_id']}": r["zone"] for r in verification if r["status"] == "verified"})
@@ -71,7 +73,9 @@ class EvaluatorAgent:
                         issues=[{k: v for k, v in i.items() if k != "detail"} for i in issues])
         if not passed:
             self._explain(plan, issues)
-        return {"version": plan["version"], "passed": passed, "issues": issues}
+        evaluation = {"version": plan["version"], "passed": passed, "issues": issues}
+        self.world.record_evaluation(evaluation)
+        return evaluation
 
     # ---- explanation (trace only; decision is already final) -------------
 

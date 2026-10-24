@@ -15,22 +15,29 @@ from agents.dispatch import DispatchAgent
 from agents.evaluator import EvaluatorAgent
 from agents.risk import RiskAgent
 from agents.verification import VerificationAgent
+from shared_world import SharedWorld
 
 
 class PlannerAgent:
     name = "Planner"
 
-    def __init__(self, tracer, data, sample_mode=config.SAMPLE_MODE):
+    def __init__(self, tracer, data, sample_mode=config.SAMPLE_MODE, world=None):
         self.tracer = tracer
         self.data = data
+        # One shared World Model per run; every agent reads and writes it.
+        self.world = world or SharedWorld(data["service_date"])
         deadline = time.monotonic() + config.RUN_BUDGET_S
-        self.verifier = VerificationAgent(tracer, sample_mode=sample_mode, deadline=deadline)
-        self.dispatcher = DispatchAgent(tracer, data["depot"], data["zones"], data["collectors"])
-        self.evaluator = EvaluatorAgent(tracer, deadline=deadline)
-        self.risk = RiskAgent(tracer)
+        self.verifier = VerificationAgent(tracer, self.world, sample_mode=sample_mode, deadline=deadline)
+        self.dispatcher = DispatchAgent(tracer, self.world, data["depot"], data["zones"], data["collectors"])
+        self.evaluator = EvaluatorAgent(tracer, self.world, deadline=deadline)
+        self.risk = RiskAgent(tracer, self.world)
 
     def run(self):
         data = self.data
+        self.world.seed(data)
+        self.tracer.log(self.name, "shared state",
+                        f"Seeded World Model '{self.world.world.namespace}' with {len(self.world.world.entities)} "
+                        "entities; agents now read and write decisions through it.")
         tasks = self._make_task_list()
 
         # 1. Verification
@@ -47,7 +54,7 @@ class PlannerAgent:
         plan_versions = [plan]
         evaluations = []
         while True:
-            evaluation = self.evaluator.evaluate(plan, verification, data["pickups"])
+            evaluation = self.evaluator.evaluate(plan, data["pickups"])
             evaluations.append(evaluation)
             if evaluation["passed"]:
                 break
@@ -70,7 +77,7 @@ class PlannerAgent:
 
         # 4. Risk / escalation - the only place approval is decided
         self.tracer.log(self.name, "delegate", f"Handing plan v{plan['version']} to Risk for approval decisions.")
-        risk = self.risk.assess(plan, verification, evaluations[-1])
+        risk = self.risk.assess(plan, evaluations[-1])
 
         return {
             "task_plan": tasks,

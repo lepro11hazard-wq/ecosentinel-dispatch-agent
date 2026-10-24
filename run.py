@@ -12,6 +12,7 @@ from datetime import datetime, timezone
 import config
 from agents.planner import PlannerAgent
 from data import sample_data
+from shared_world import SharedWorld
 from tracing import Tracer
 
 SCOPE_LIMITS = [
@@ -34,7 +35,9 @@ def main():
 
     data = sample_data.generate()
     tracer = Tracer()
-    result = PlannerAgent(tracer, data, sample_mode=config.SAMPLE_MODE).run()
+    world = SharedWorld(data["service_date"], path=config.ROOT / "outputs" / "world_model.json")
+    result = PlannerAgent(tracer, data, sample_mode=config.SAMPLE_MODE, world=world).run()
+    world_summary = world.summary()
     runtime_s = round(time.perf_counter() - started, 2)
 
     output = {
@@ -55,6 +58,7 @@ def main():
         },
         "inputs": data,
         **result,
+        "world_model": world_summary,
         "trace": tracer.entries,
     }
 
@@ -71,6 +75,9 @@ def main():
         print(f"  {cid} ({route['home_zone']}) {route['load_kg']}/{route['capacity_kg']} kg, "
               f"{route['distance_km_straight_line']} km: {stops}")
     print("  (* = needs human review)")
+    print(f"World Model: {world_summary['events']} events, {world_summary['open_assignments']} open / "
+          f"{world_summary['closed_assignments']} superseded assignments, "
+          f"replay matches live state: {world_summary['replay_matches_live_state']}")
     print(f"Saved {out_path.relative_to(config.ROOT)} in {runtime_s}s")
 
 

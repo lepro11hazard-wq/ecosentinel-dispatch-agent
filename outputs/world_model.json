@@ -1,0 +1,4109 @@
+{
+ "namespace": "ecoloop-2026-10-24",
+ "schemaVersion": 1,
+ "events": [
+  {
+   "seq": 1,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "zone:ecoloop:Molyko",
+    "type": "zone",
+    "name": "Molyko",
+    "aliases": [
+     "Molyko"
+    ],
+    "attrs": {
+     "lat": 4.153,
+     "lon": 9.2905
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 2,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "zone:ecoloop:Bonduma",
+    "type": "zone",
+    "name": "Bonduma",
+    "aliases": [
+     "Bonduma"
+    ],
+    "attrs": {
+     "lat": 4.161,
+     "lon": 9.28
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 3,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "zone:ecoloop:Great Soppo",
+    "type": "zone",
+    "name": "Great Soppo",
+    "aliases": [
+     "Great Soppo"
+    ],
+    "attrs": {
+     "lat": 4.145,
+     "lon": 9.244
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 4,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "collector:ecoloop:COL-1",
+    "type": "collector",
+    "name": "Collector A",
+    "aliases": [
+     "Collector A"
+    ],
+    "attrs": {
+     "id": "COL-1",
+     "name": "Collector A",
+     "home_zone": "Molyko",
+     "capacity_kg": 300,
+     "vehicle": "tricycle"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 5,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_85eb2be97138d4f6",
+    "from": "collector:ecoloop:COL-1",
+    "type": "home-zone",
+    "to": "zone:ecoloop:Molyko",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 6,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "collector:ecoloop:COL-2",
+    "type": "collector",
+    "name": "Collector B",
+    "aliases": [
+     "Collector B"
+    ],
+    "attrs": {
+     "id": "COL-2",
+     "name": "Collector B",
+     "home_zone": "Bonduma",
+     "capacity_kg": 250,
+     "vehicle": "tricycle"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 7,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_7694ad611fa010b4",
+    "from": "collector:ecoloop:COL-2",
+    "type": "home-zone",
+    "to": "zone:ecoloop:Bonduma",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 8,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "collector:ecoloop:COL-3",
+    "type": "collector",
+    "name": "Collector C",
+    "aliases": [
+     "Collector C"
+    ],
+    "attrs": {
+     "id": "COL-3",
+     "name": "Collector C",
+     "home_zone": "Great Soppo",
+     "capacity_kg": 250,
+     "vehicle": "tricycle"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 9,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_c0bbd6930c90763b",
+    "from": "collector:ecoloop:COL-3",
+    "type": "home-zone",
+    "to": "zone:ecoloop:Great Soppo",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 10,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "pickup:ecoloop:PU-01",
+    "type": "pickup",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "PU-01",
+     "household": "HH-101",
+     "zone": "Molyko",
+     "lat": 4.1537,
+     "lon": 9.28813,
+     "kg": 60,
+     "volume_confirmed": true,
+     "requested_window": "07:00-12:00"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 11,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_2c491fc28c0734f0",
+    "from": "pickup:ecoloop:PU-01",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Molyko",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 12,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "pickup:ecoloop:PU-02",
+    "type": "pickup",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "PU-02",
+     "household": "HH-102",
+     "zone": "Molyko",
+     "lat": 4.15188,
+     "lon": 9.28912,
+     "kg": 45,
+     "volume_confirmed": true,
+     "requested_window": "07:00-12:00"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 13,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_2fe2865bd10b5d5d",
+    "from": "pickup:ecoloop:PU-02",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Molyko",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 14,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "pickup:ecoloop:PU-03",
+    "type": "pickup",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "PU-03",
+     "household": "HH-103",
+     "zone": "Molyko",
+     "lat": 4.15418,
+     "lon": 9.29138,
+     "kg": 55,
+     "volume_confirmed": false,
+     "requested_window": "07:00-12:00"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 15,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_85504f64c9350dd0",
+    "from": "pickup:ecoloop:PU-03",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Molyko",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 16,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "pickup:ecoloop:PU-04",
+    "type": "pickup",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "PU-04",
+     "household": "HH-104",
+     "zone": "Molyko",
+     "lat": 4.15496,
+     "lon": 9.28843,
+     "kg": 70,
+     "volume_confirmed": true,
+     "requested_window": "07:00-12:00"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 17,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_5960cafa16dea61a",
+    "from": "pickup:ecoloop:PU-04",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Molyko",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 18,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "pickup:ecoloop:PU-05",
+    "type": "pickup",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "PU-05",
+     "household": "HH-105",
+     "zone": "Molyko",
+     "lat": 4.15261,
+     "lon": 9.28815,
+     "kg": 40,
+     "volume_confirmed": true,
+     "requested_window": "07:00-12:00"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 19,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_08a01a42e0cc4424",
+    "from": "pickup:ecoloop:PU-05",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Molyko",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 20,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "pickup:ecoloop:PU-06",
+    "type": "pickup",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "PU-06",
+     "household": "HH-106",
+     "zone": "Molyko",
+     "lat": 4.15159,
+     "lon": 9.29053,
+     "kg": 50,
+     "volume_confirmed": false,
+     "requested_window": "07:00-12:00"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 21,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_aed289457a47603b",
+    "from": "pickup:ecoloop:PU-06",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Molyko",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 22,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "pickup:ecoloop:PU-07",
+    "type": "pickup",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "PU-07",
+     "household": "HH-107",
+     "zone": "Bonduma",
+     "lat": 4.15863,
+     "lon": 9.27849,
+     "kg": 35,
+     "volume_confirmed": true,
+     "requested_window": "07:00-12:00"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 23,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_a8dd29c4ed1697fa",
+    "from": "pickup:ecoloop:PU-07",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Bonduma",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 24,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "pickup:ecoloop:PU-08",
+    "type": "pickup",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "PU-08",
+     "household": "HH-108",
+     "zone": "Bonduma",
+     "lat": 4.16175,
+     "lon": 9.28022,
+     "kg": 40,
+     "volume_confirmed": false,
+     "requested_window": "07:00-12:00"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 25,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_72bf90d544ab5257",
+    "from": "pickup:ecoloop:PU-08",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Bonduma",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 26,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "pickup:ecoloop:PU-09",
+    "type": "pickup",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "PU-09",
+     "household": "HH-109",
+     "zone": "Bonduma",
+     "lat": 4.1596,
+     "lon": 9.28045,
+     "kg": 30,
+     "volume_confirmed": true,
+     "requested_window": "07:00-12:00"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 27,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_2a122ef9cc69ca9c",
+    "from": "pickup:ecoloop:PU-09",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Bonduma",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 28,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "pickup:ecoloop:PU-10",
+    "type": "pickup",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "PU-10",
+     "household": "HH-110",
+     "zone": "Great Soppo",
+     "lat": 4.14655,
+     "lon": 9.24153,
+     "kg": 45,
+     "volume_confirmed": true,
+     "requested_window": "07:00-12:00"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 29,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_2f58bbb2ea265d2b",
+    "from": "pickup:ecoloop:PU-10",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Great Soppo",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 30,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "pickup:ecoloop:PU-11",
+    "type": "pickup",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "PU-11",
+     "household": "HH-111",
+     "zone": "Great Soppo",
+     "lat": 4.14653,
+     "lon": 9.24499,
+     "kg": 35,
+     "volume_confirmed": true,
+     "requested_window": "07:00-12:00"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 31,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_7d33cc76328de768",
+    "from": "pickup:ecoloop:PU-11",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Great Soppo",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 32,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "pickup:ecoloop:PU-12",
+    "type": "pickup",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "PU-12",
+     "household": "HH-112",
+     "zone": "Great Soppo",
+     "lat": 4.1442,
+     "lon": 9.24228,
+     "kg": 50,
+     "volume_confirmed": false,
+     "requested_window": "07:00-12:00"
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 33,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_3f1e44231f07e8dc",
+    "from": "pickup:ecoloop:PU-12",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Great Soppo",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 34,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "queue:ecoloop:deferred",
+    "type": "queue",
+    "name": "deferred",
+    "aliases": [
+     "deferred"
+    ],
+    "attrs": {},
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 35,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "queue:ecoloop:removed",
+    "type": "queue",
+    "name": "removed",
+    "aliases": [
+     "removed"
+    ],
+    "attrs": {},
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "input",
+     "by": "Planner",
+     "at": "2026-10-24T10:34:04.800116Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.800116Z",
+    "updatedAt": "2026-10-24T10:34:04.800116Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.800116Z"
+  },
+  {
+   "seq": 36,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "dump_report:ingest:DR-1",
+    "type": "dump_report",
+    "name": "Pile of sacks and plastic dumped beside the drain near the junction",
+    "aliases": [
+     "Pile of sacks and plastic dumped beside the drain near the junction"
+    ],
+    "attrs": {
+     "title": "Pile of sacks and plastic dumped beside the drain near the junction",
+     "text": null
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "citizen-report",
+     "at": "2026-10-23T07:40:00+01:00"
+    },
+    "createdAt": "2026-10-23T07:40:00+01:00",
+    "updatedAt": "2026-10-23T07:40:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T07:40:00+01:00"
+  },
+  {
+   "seq": 37,
+   "kind": "observe",
+   "payload": {
+    "externalId": "DR-1",
+    "entityId": "dump_report:ingest:DR-1",
+    "entityIds": [],
+    "checksum": "4d3d18744975edbdf77a09d33df8da39c664ec4dbfde23f6f71a8ba93798a533",
+    "at": "2026-10-23T07:40:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T07:40:00+01:00"
+  },
+  {
+   "seq": 38,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "dump_report:ingest:DR-2",
+    "type": "dump_report",
+    "name": "Rubbish heap by the drain, smells bad",
+    "aliases": [
+     "Rubbish heap by the drain, smells bad"
+    ],
+    "attrs": {
+     "title": "Rubbish heap by the drain, smells bad",
+     "text": null
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "citizen-report",
+     "at": "2026-10-23T10:15:00+01:00"
+    },
+    "createdAt": "2026-10-23T10:15:00+01:00",
+    "updatedAt": "2026-10-23T10:15:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T10:15:00+01:00"
+  },
+  {
+   "seq": 39,
+   "kind": "observe",
+   "payload": {
+    "externalId": "DR-2",
+    "entityId": "dump_report:ingest:DR-2",
+    "entityIds": [],
+    "checksum": "b3a01ff7ac83886112f2468d42771c8df59da31719855cdd10b0585e55aad9f6",
+    "at": "2026-10-23T10:15:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T10:15:00+01:00"
+  },
+  {
+   "seq": 40,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "dump_report:ingest:DR-3",
+    "type": "dump_report",
+    "name": "Dumping behind the market stalls",
+    "aliases": [
+     "Dumping behind the market stalls"
+    ],
+    "attrs": {
+     "title": "Dumping behind the market stalls",
+     "text": null
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "citizen-report",
+     "at": "2026-10-23T19:05:00+01:00"
+    },
+    "createdAt": "2026-10-23T19:05:00+01:00",
+    "updatedAt": "2026-10-23T19:05:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T19:05:00+01:00"
+  },
+  {
+   "seq": 41,
+   "kind": "observe",
+   "payload": {
+    "externalId": "DR-3",
+    "entityId": "dump_report:ingest:DR-3",
+    "entityIds": [],
+    "checksum": "284a446c0336370bb5bb51c1a30e43a295888ed85eed622804f7702083e4cb88",
+    "at": "2026-10-23T19:05:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T19:05:00+01:00"
+  },
+  {
+   "seq": 42,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "dump_report:ingest:DR-4",
+    "type": "dump_report",
+    "name": "Bags thrown near the stream bank",
+    "aliases": [
+     "Bags thrown near the stream bank"
+    ],
+    "attrs": {
+     "title": "Bags thrown near the stream bank",
+     "text": null
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "citizen-report",
+     "at": "2026-10-23T08:30:00+01:00"
+    },
+    "createdAt": "2026-10-23T08:30:00+01:00",
+    "updatedAt": "2026-10-23T08:30:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T08:30:00+01:00"
+  },
+  {
+   "seq": 43,
+   "kind": "observe",
+   "payload": {
+    "externalId": "DR-4",
+    "entityId": "dump_report:ingest:DR-4",
+    "entityIds": [],
+    "checksum": "0904d83fbb3bcb0535ad86f1590d003155e60b8d2229bd31862cba78a8ef358e",
+    "at": "2026-10-23T08:30:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T08:30:00+01:00"
+  },
+  {
+   "seq": 44,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "dump_report:ingest:DR-1",
+    "type": "dump_report",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "DR-1",
+     "zone": "Molyko",
+     "lat": 4.1541,
+     "lon": 9.2921,
+     "reported_at": "2026-10-23T07:40:00+01:00",
+     "photo_path": "data/photos/DR-1.jpg",
+     "description": "Pile of sacks and plastic dumped beside the drain near the junction",
+     "est_kg": 80,
+     "simulated_vision": {
+      "confidence": 0.91,
+      "duplicate": false,
+      "reason": "Clear photo of mixed household waste piled at the roadside."
+     }
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "citizen-report",
+     "at": "2026-10-23T07:40:00+01:00"
+    },
+    "createdAt": "2026-10-23T07:40:00+01:00",
+    "updatedAt": "2026-10-23T07:40:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T07:40:00+01:00"
+  },
+  {
+   "seq": 45,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_4b66b4773185bcd5",
+    "from": "dump_report:ingest:DR-1",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Molyko",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-23T07:40:00+01:00",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "citizen-report",
+     "at": "2026-10-23T07:40:00+01:00"
+    },
+    "createdAt": "2026-10-23T07:40:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T07:40:00+01:00"
+  },
+  {
+   "seq": 46,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "dump_report:ingest:DR-2",
+    "type": "dump_report",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "DR-2",
+     "zone": "Molyko",
+     "lat": 4.1542,
+     "lon": 9.2922,
+     "reported_at": "2026-10-23T10:15:00+01:00",
+     "photo_path": "data/photos/DR-2.jpg",
+     "description": "Rubbish heap by the drain, smells bad",
+     "est_kg": 80,
+     "simulated_vision": {
+      "confidence": 0.86,
+      "duplicate": true,
+      "reason": "Appears to be the same roadside pile photographed from another angle."
+     }
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "citizen-report",
+     "at": "2026-10-23T10:15:00+01:00"
+    },
+    "createdAt": "2026-10-23T10:15:00+01:00",
+    "updatedAt": "2026-10-23T10:15:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T10:15:00+01:00"
+  },
+  {
+   "seq": 47,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_2c0d880721d2f4d9",
+    "from": "dump_report:ingest:DR-2",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Molyko",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-23T10:15:00+01:00",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "citizen-report",
+     "at": "2026-10-23T10:15:00+01:00"
+    },
+    "createdAt": "2026-10-23T10:15:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T10:15:00+01:00"
+  },
+  {
+   "seq": 48,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "dump_report:ingest:DR-3",
+    "type": "dump_report",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "DR-3",
+     "zone": "Bonduma",
+     "lat": 4.1622,
+     "lon": 9.2789,
+     "reported_at": "2026-10-23T19:05:00+01:00",
+     "photo_path": "data/photos/DR-3.jpg",
+     "description": "Dumping behind the market stalls",
+     "est_kg": 60,
+     "simulated_vision": {
+      "confidence": 0.45,
+      "duplicate": false,
+      "reason": "Image is dark and blurred; waste presence cannot be confirmed."
+     }
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "citizen-report",
+     "at": "2026-10-23T19:05:00+01:00"
+    },
+    "createdAt": "2026-10-23T19:05:00+01:00",
+    "updatedAt": "2026-10-23T19:05:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T19:05:00+01:00"
+  },
+  {
+   "seq": 49,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_bd4482f5bb003cb1",
+    "from": "dump_report:ingest:DR-3",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Bonduma",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-23T19:05:00+01:00",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "citizen-report",
+     "at": "2026-10-23T19:05:00+01:00"
+    },
+    "createdAt": "2026-10-23T19:05:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T19:05:00+01:00"
+  },
+  {
+   "seq": 50,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "dump_report:ingest:DR-4",
+    "type": "dump_report",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "id": "DR-4",
+     "zone": "Great Soppo",
+     "lat": 4.1438,
+     "lon": 9.2452,
+     "reported_at": "2026-10-23T08:30:00+01:00",
+     "photo_path": "data/photos/DR-4.jpg",
+     "description": "Bags thrown near the stream bank",
+     "est_kg": 90,
+     "simulated_vision": {
+      "confidence": 0.78,
+      "duplicate": false,
+      "reason": "Waste visible near the stream bank but partly hidden by vegetation."
+     }
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "citizen-report",
+     "at": "2026-10-23T08:30:00+01:00"
+    },
+    "createdAt": "2026-10-23T08:30:00+01:00",
+    "updatedAt": "2026-10-23T08:30:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T08:30:00+01:00"
+  },
+  {
+   "seq": 51,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_3eab02b1fbe7e0cc",
+    "from": "dump_report:ingest:DR-4",
+    "type": "in-zone",
+    "to": "zone:ecoloop:Great Soppo",
+    "context": null,
+    "attrs": {},
+    "validFrom": "2026-10-23T08:30:00+01:00",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "citizen-report",
+     "at": "2026-10-23T08:30:00+01:00"
+    },
+    "createdAt": "2026-10-23T08:30:00+01:00"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-23T08:30:00+01:00"
+  },
+  {
+   "seq": 52,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_a2f44f9ca30264b8",
+    "about": "dump_report:ingest:DR-1",
+    "predicate": "verification",
+    "value": {
+     "report_id": "DR-1",
+     "zone": "Molyko",
+     "lat": 4.1541,
+     "lon": 9.2921,
+     "est_kg": 80,
+     "reported_at": "2026-10-23T07:40:00+01:00",
+     "status": "verified",
+     "confidence": 0.91,
+     "model_duplicate": false,
+     "model_reason": "Clear photo of mixed household waste piled at the roadside.",
+     "model_error": false,
+     "duplicate_of": null,
+     "decision_reason": "Confidence 0.91 >= 0.7 accept bar. Clear photo of mixed household waste piled at the roadside."
+    },
+    "confidence": 0.91,
+    "source": {
+     "kind": "agent",
+     "by": "Verification",
+     "at": "2026-10-24T10:34:04.803247Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.803247Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.803247Z"
+  },
+  {
+   "seq": 53,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_0c01a82528ff1d1d",
+    "about": "dump_report:ingest:DR-4",
+    "predicate": "verification",
+    "value": {
+     "report_id": "DR-4",
+     "zone": "Great Soppo",
+     "lat": 4.1438,
+     "lon": 9.2452,
+     "est_kg": 90,
+     "reported_at": "2026-10-23T08:30:00+01:00",
+     "status": "verified",
+     "confidence": 0.78,
+     "model_duplicate": false,
+     "model_reason": "Waste visible near the stream bank but partly hidden by vegetation.",
+     "model_error": false,
+     "duplicate_of": null,
+     "decision_reason": "Confidence 0.78 >= 0.7 accept bar. Waste visible near the stream bank but partly hidden by vegetation."
+    },
+    "confidence": 0.78,
+    "source": {
+     "kind": "agent",
+     "by": "Verification",
+     "at": "2026-10-24T10:34:04.803841Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.803841Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.803841Z"
+  },
+  {
+   "seq": 54,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_4ffc3a284a5707e6",
+    "about": "dump_report:ingest:DR-2",
+    "predicate": "verification",
+    "value": {
+     "report_id": "DR-2",
+     "zone": "Molyko",
+     "lat": 4.1542,
+     "lon": 9.2922,
+     "est_kg": 80,
+     "reported_at": "2026-10-23T10:15:00+01:00",
+     "status": "duplicate",
+     "confidence": 0.86,
+     "model_duplicate": true,
+     "model_reason": "Appears to be the same roadside pile photographed from another angle.",
+     "model_error": false,
+     "duplicate_of": "DR-1",
+     "decision_reason": "16 m and 2.6 h from DR-1 - same pile (the model agrees)."
+    },
+    "confidence": 0.86,
+    "source": {
+     "kind": "agent",
+     "by": "Verification",
+     "at": "2026-10-24T10:34:04.804153Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.804153Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.804153Z"
+  },
+  {
+   "seq": 55,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_a9e252df93571411",
+    "about": "dump_report:ingest:DR-3",
+    "predicate": "verification",
+    "value": {
+     "report_id": "DR-3",
+     "zone": "Bonduma",
+     "lat": 4.1622,
+     "lon": 9.2789,
+     "est_kg": 60,
+     "reported_at": "2026-10-23T19:05:00+01:00",
+     "status": "needs_review",
+     "confidence": 0.45,
+     "model_duplicate": false,
+     "model_reason": "Image is dark and blurred; waste presence cannot be confirmed.",
+     "model_error": false,
+     "duplicate_of": null,
+     "decision_reason": "Confidence 0.45 is between 0.4 and 0.7: too weak to dispatch, too strong to discard. Image is dark and blurred; waste presence cannot be confirmed."
+    },
+    "confidence": 0.45,
+    "source": {
+     "kind": "agent",
+     "by": "Verification",
+     "at": "2026-10-24T10:34:04.804455Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.804455Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.804455Z"
+  },
+  {
+   "seq": 56,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-05",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-05",
+     "kind": "pickup",
+     "source_id": "PU-05",
+     "zone": "Molyko",
+     "lat": 4.15261,
+     "lon": 9.28815,
+     "kg": 40,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 57,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_18ef463bc317d5c2",
+    "from": "stop:ecoloop:S-PU-05",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-1",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 58,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-01",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-01",
+     "kind": "pickup",
+     "source_id": "PU-01",
+     "zone": "Molyko",
+     "lat": 4.1537,
+     "lon": 9.28813,
+     "kg": 60,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 59,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_a7b13bd0d0f12cab",
+    "from": "stop:ecoloop:S-PU-01",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-1",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 60,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-04",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-04",
+     "kind": "pickup",
+     "source_id": "PU-04",
+     "zone": "Molyko",
+     "lat": 4.15496,
+     "lon": 9.28843,
+     "kg": 70,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 61,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_57c8948615cbbb51",
+    "from": "stop:ecoloop:S-PU-04",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-1",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 62,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-03",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-03",
+     "kind": "pickup",
+     "source_id": "PU-03",
+     "zone": "Molyko",
+     "lat": 4.15418,
+     "lon": 9.29138,
+     "kg": 55,
+     "volume_confirmed": false
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 63,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_bf22e79c0444ba02",
+    "from": "stop:ecoloop:S-PU-03",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-1",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 64,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-DR-1",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-DR-1",
+     "kind": "dump_report",
+     "source_id": "DR-1",
+     "zone": "Molyko",
+     "lat": 4.1541,
+     "lon": 9.2921,
+     "kg": 80,
+     "volume_confirmed": false,
+     "confidence": 0.91
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 65,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_39a53e46fb772eb9",
+    "from": "stop:ecoloop:S-DR-1",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-1",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 66,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-06",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-06",
+     "kind": "pickup",
+     "source_id": "PU-06",
+     "zone": "Molyko",
+     "lat": 4.15159,
+     "lon": 9.29053,
+     "kg": 50,
+     "volume_confirmed": false
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 67,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_723957fc600a75e7",
+    "from": "stop:ecoloop:S-PU-06",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-1",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 68,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-02",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-02",
+     "kind": "pickup",
+     "source_id": "PU-02",
+     "zone": "Molyko",
+     "lat": 4.15188,
+     "lon": 9.28912,
+     "kg": 45,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 69,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_df5a0d249b294bdd",
+    "from": "stop:ecoloop:S-PU-02",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-1",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 70,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-09",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-09",
+     "kind": "pickup",
+     "source_id": "PU-09",
+     "zone": "Bonduma",
+     "lat": 4.1596,
+     "lon": 9.28045,
+     "kg": 30,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 71,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_0b60e34535a85b98",
+    "from": "stop:ecoloop:S-PU-09",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-2",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 72,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-08",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-08",
+     "kind": "pickup",
+     "source_id": "PU-08",
+     "zone": "Bonduma",
+     "lat": 4.16175,
+     "lon": 9.28022,
+     "kg": 40,
+     "volume_confirmed": false
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 73,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_3f191b3d26484557",
+    "from": "stop:ecoloop:S-PU-08",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-2",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 74,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-07",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-07",
+     "kind": "pickup",
+     "source_id": "PU-07",
+     "zone": "Bonduma",
+     "lat": 4.15863,
+     "lon": 9.27849,
+     "kg": 35,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 75,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_d9210ead787ad7f3",
+    "from": "stop:ecoloop:S-PU-07",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-2",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 76,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-11",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-11",
+     "kind": "pickup",
+     "source_id": "PU-11",
+     "zone": "Great Soppo",
+     "lat": 4.14653,
+     "lon": 9.24499,
+     "kg": 35,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 77,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_a431574708fb1461",
+    "from": "stop:ecoloop:S-PU-11",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-3",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 78,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-DR-4",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-DR-4",
+     "kind": "dump_report",
+     "source_id": "DR-4",
+     "zone": "Great Soppo",
+     "lat": 4.1438,
+     "lon": 9.2452,
+     "kg": 90,
+     "volume_confirmed": false,
+     "confidence": 0.78
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 79,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_b30cf8061545237f",
+    "from": "stop:ecoloop:S-DR-4",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-3",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 80,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-12",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-12",
+     "kind": "pickup",
+     "source_id": "PU-12",
+     "zone": "Great Soppo",
+     "lat": 4.1442,
+     "lon": 9.24228,
+     "kg": 50,
+     "volume_confirmed": false
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 81,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_8c6be4db08c0b5f7",
+    "from": "stop:ecoloop:S-PU-12",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-3",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 82,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-10",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-10",
+     "kind": "pickup",
+     "source_id": "PU-10",
+     "zone": "Great Soppo",
+     "lat": 4.14655,
+     "lon": 9.24153,
+     "kg": 45,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 83,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_156b52067a9e5e2f",
+    "from": "stop:ecoloop:S-PU-10",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-3",
+    "context": null,
+    "attrs": {
+     "plan_version": 1
+    },
+    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 84,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "plan:ecoloop:v1",
+    "type": "plan",
+    "name": null,
+    "aliases": [],
+    "attrs": {},
+    "state": "emerging",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.805300Z",
+    "updatedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 85,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_6e2e2696d924266b",
+    "about": "plan:ecoloop:v1",
+    "predicate": "loads",
+    "value": {
+     "COL-1": 400,
+     "COL-2": 105,
+     "COL-3": 220
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.805300Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.805300Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.805300Z"
+  },
+  {
+   "seq": 86,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_68ad017514443507",
+    "about": "plan:ecoloop:v1",
+    "predicate": "evaluation",
+    "value": {
+     "passed": false,
+     "issues": [
+      "over_capacity"
+     ]
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Evaluator",
+     "at": "2026-10-24T10:34:04.808807Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.808807Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.808807Z"
+  },
+  {
+   "seq": 87,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-05",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-05",
+     "kind": "pickup",
+     "source_id": "PU-05",
+     "zone": "Molyko",
+     "lat": 4.15261,
+     "lon": 9.28815,
+     "kg": 40,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 88,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-02",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-02",
+     "kind": "pickup",
+     "source_id": "PU-02",
+     "zone": "Molyko",
+     "lat": 4.15188,
+     "lon": 9.28912,
+     "kg": 45,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 89,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-06",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-06",
+     "kind": "pickup",
+     "source_id": "PU-06",
+     "zone": "Molyko",
+     "lat": 4.15159,
+     "lon": 9.29053,
+     "kg": 50,
+     "volume_confirmed": false
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 90,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-03",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-03",
+     "kind": "pickup",
+     "source_id": "PU-03",
+     "zone": "Molyko",
+     "lat": 4.15418,
+     "lon": 9.29138,
+     "kg": 55,
+     "volume_confirmed": false
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 91,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-DR-1",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-DR-1",
+     "kind": "dump_report",
+     "source_id": "DR-1",
+     "zone": "Molyko",
+     "lat": 4.1541,
+     "lon": 9.2921,
+     "kg": 80,
+     "volume_confirmed": false,
+     "confidence": 0.91
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 92,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-01",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-01",
+     "kind": "pickup",
+     "source_id": "PU-01",
+     "zone": "Molyko",
+     "lat": 4.1537,
+     "lon": 9.28813,
+     "kg": 60,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 93,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_5028ad3a97ac0793",
+    "from": "stop:ecoloop:S-PU-01",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-2",
+    "context": null,
+    "attrs": {
+     "plan_version": 2
+    },
+    "validFrom": "2026-10-24T10:34:04.809634Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 94,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-04",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-04",
+     "kind": "pickup",
+     "source_id": "PU-04",
+     "zone": "Molyko",
+     "lat": 4.15496,
+     "lon": 9.28843,
+     "kg": 70,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 95,
+   "kind": "relate",
+   "payload": {
+    "id": "rel_afce3d78150d7479",
+    "from": "stop:ecoloop:S-PU-04",
+    "type": "assigned-to",
+    "to": "collector:ecoloop:COL-2",
+    "context": null,
+    "attrs": {
+     "plan_version": 2
+    },
+    "validFrom": "2026-10-24T10:34:04.809634Z",
+    "validTo": null,
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 96,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-09",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-09",
+     "kind": "pickup",
+     "source_id": "PU-09",
+     "zone": "Bonduma",
+     "lat": 4.1596,
+     "lon": 9.28045,
+     "kg": 30,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 97,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-08",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-08",
+     "kind": "pickup",
+     "source_id": "PU-08",
+     "zone": "Bonduma",
+     "lat": 4.16175,
+     "lon": 9.28022,
+     "kg": 40,
+     "volume_confirmed": false
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 98,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-07",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-07",
+     "kind": "pickup",
+     "source_id": "PU-07",
+     "zone": "Bonduma",
+     "lat": 4.15863,
+     "lon": 9.27849,
+     "kg": 35,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 99,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-11",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-11",
+     "kind": "pickup",
+     "source_id": "PU-11",
+     "zone": "Great Soppo",
+     "lat": 4.14653,
+     "lon": 9.24499,
+     "kg": 35,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 100,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-DR-4",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-DR-4",
+     "kind": "dump_report",
+     "source_id": "DR-4",
+     "zone": "Great Soppo",
+     "lat": 4.1438,
+     "lon": 9.2452,
+     "kg": 90,
+     "volume_confirmed": false,
+     "confidence": 0.78
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 101,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-12",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-12",
+     "kind": "pickup",
+     "source_id": "PU-12",
+     "zone": "Great Soppo",
+     "lat": 4.1442,
+     "lon": 9.24228,
+     "kg": 50,
+     "volume_confirmed": false
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 102,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "stop:ecoloop:S-PU-10",
+    "type": "stop",
+    "name": null,
+    "aliases": [],
+    "attrs": {
+     "stop_id": "S-PU-10",
+     "kind": "pickup",
+     "source_id": "PU-10",
+     "zone": "Great Soppo",
+     "lat": 4.14655,
+     "lon": 9.24153,
+     "kg": 45,
+     "volume_confirmed": true
+    },
+    "state": "active",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 103,
+   "kind": "upsertEntity",
+   "payload": {
+    "id": "plan:ecoloop:v2",
+    "type": "plan",
+    "name": null,
+    "aliases": [],
+    "attrs": {},
+    "state": "emerging",
+    "schemaVersion": 1,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "createdAt": "2026-10-24T10:34:04.809634Z",
+    "updatedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 104,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_cbe01c1c1c3d71ac",
+    "about": "plan:ecoloop:v2",
+    "predicate": "loads",
+    "value": {
+     "COL-1": 270,
+     "COL-2": 235,
+     "COL-3": 220
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Dispatch",
+     "at": "2026-10-24T10:34:04.809634Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.809634Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.809634Z"
+  },
+  {
+   "seq": 105,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_514027d974c9e873",
+    "about": "plan:ecoloop:v2",
+    "predicate": "evaluation",
+    "value": {
+     "passed": true,
+     "issues": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Evaluator",
+     "at": "2026-10-24T10:34:04.811994Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.811994Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.811994Z"
+  },
+  {
+   "seq": 106,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_eadfae06256ec512",
+    "about": "stop:ecoloop:S-PU-05",
+    "predicate": "approval",
+    "value": {
+     "decision": "auto_approved",
+     "reasons": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.812747Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.812747Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.812747Z"
+  },
+  {
+   "seq": 107,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_41b5f7a51fd812a6",
+    "about": "stop:ecoloop:S-PU-02",
+    "predicate": "approval",
+    "value": {
+     "decision": "auto_approved",
+     "reasons": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.812921Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.812921Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.812921Z"
+  },
+  {
+   "seq": 108,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_5a7561863354256d",
+    "about": "stop:ecoloop:S-PU-06",
+    "predicate": "approval",
+    "value": {
+     "decision": "auto_approved",
+     "reasons": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.813134Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.813134Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.813134Z"
+  },
+  {
+   "seq": 109,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_5c4a06f6c55d9e23",
+    "about": "stop:ecoloop:S-PU-03",
+    "predicate": "approval",
+    "value": {
+     "decision": "auto_approved",
+     "reasons": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.813266Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.813266Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.813266Z"
+  },
+  {
+   "seq": 110,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_9054c54ced2d4a04",
+    "about": "stop:ecoloop:S-DR-1",
+    "predicate": "approval",
+    "value": {
+     "decision": "auto_approved",
+     "reasons": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.813395Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.813395Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.813395Z"
+  },
+  {
+   "seq": 111,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_9f864072d91e07ad",
+    "about": "stop:ecoloop:S-PU-01",
+    "predicate": "approval",
+    "value": {
+     "decision": "auto_approved",
+     "reasons": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.813527Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.813527Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.813527Z"
+  },
+  {
+   "seq": 112,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_7913ed6d38796669",
+    "about": "stop:ecoloop:S-PU-04",
+    "predicate": "approval",
+    "value": {
+     "decision": "auto_approved",
+     "reasons": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.813663Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.813663Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.813663Z"
+  },
+  {
+   "seq": 113,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_92b84819723f20d7",
+    "about": "stop:ecoloop:S-PU-09",
+    "predicate": "approval",
+    "value": {
+     "decision": "auto_approved",
+     "reasons": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.813781Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.813781Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.813781Z"
+  },
+  {
+   "seq": 114,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_e308dda846ab426c",
+    "about": "stop:ecoloop:S-PU-07",
+    "predicate": "approval",
+    "value": {
+     "decision": "auto_approved",
+     "reasons": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.813902Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.813902Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.813902Z"
+  },
+  {
+   "seq": 115,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_afc6eb9f9957c1f8",
+    "about": "stop:ecoloop:S-PU-11",
+    "predicate": "approval",
+    "value": {
+     "decision": "auto_approved",
+     "reasons": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.814063Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.814063Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.814063Z"
+  },
+  {
+   "seq": 116,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_0450c47af0d4c79a",
+    "about": "stop:ecoloop:S-PU-12",
+    "predicate": "approval",
+    "value": {
+     "decision": "auto_approved",
+     "reasons": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.814192Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.814192Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.814192Z"
+  },
+  {
+   "seq": 117,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_cbc3aed5201d1dbb",
+    "about": "stop:ecoloop:S-PU-10",
+    "predicate": "approval",
+    "value": {
+     "decision": "auto_approved",
+     "reasons": []
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.814337Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.814337Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.814337Z"
+  },
+  {
+   "seq": 118,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_bdaebea3bdb23152",
+    "about": "stop:ecoloop:S-PU-08",
+    "predicate": "approval",
+    "value": {
+     "decision": "human_review",
+     "reasons": [
+      "volume (40 kg) is an unweighed estimate and COL-2 is at 94% of capacity - an under-estimate would overload it"
+     ]
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.814473Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.814473Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.814473Z"
+  },
+  {
+   "seq": 119,
+   "kind": "assertFact",
+   "payload": {
+    "id": "fact_554f9936ce282589",
+    "about": "stop:ecoloop:S-DR-4",
+    "predicate": "approval",
+    "value": {
+     "decision": "human_review",
+     "reasons": [
+      "photo confidence 0.78 passed verification but is below the 0.85 auto-approve bar"
+     ]
+    },
+    "confidence": 0.5,
+    "source": {
+     "kind": "agent",
+     "by": "Risk",
+     "at": "2026-10-24T10:34:04.814656Z"
+    },
+    "assertedAt": "2026-10-24T10:34:04.814656Z"
+   },
+   "schemaVersion": 1,
+   "at": "2026-10-24T10:34:04.814656Z"
+  }
+ ],
+ "audit": [
+  {
+   "seq": 1,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "zone:ecoloop:Molyko (zone)",
+   "eventSeq": 1
+  },
+  {
+   "seq": 2,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "zone:ecoloop:Bonduma (zone)",
+   "eventSeq": 2
+  },
+  {
+   "seq": 3,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "zone:ecoloop:Great Soppo (zone)",
+   "eventSeq": 3
+  },
+  {
+   "seq": 4,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "collector:ecoloop:COL-1 (collector)",
+   "eventSeq": 4
+  },
+  {
+   "seq": 5,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "collector:ecoloop:COL-1 -[home-zone]-> zone:ecoloop:Molyko",
+   "eventSeq": 5
+  },
+  {
+   "seq": 6,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "collector:ecoloop:COL-2 (collector)",
+   "eventSeq": 6
+  },
+  {
+   "seq": 7,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "collector:ecoloop:COL-2 -[home-zone]-> zone:ecoloop:Bonduma",
+   "eventSeq": 7
+  },
+  {
+   "seq": 8,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "collector:ecoloop:COL-3 (collector)",
+   "eventSeq": 8
+  },
+  {
+   "seq": 9,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "collector:ecoloop:COL-3 -[home-zone]-> zone:ecoloop:Great Soppo",
+   "eventSeq": 9
+  },
+  {
+   "seq": 10,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-01 (pickup)",
+   "eventSeq": 10
+  },
+  {
+   "seq": 11,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-01 -[in-zone]-> zone:ecoloop:Molyko",
+   "eventSeq": 11
+  },
+  {
+   "seq": 12,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-02 (pickup)",
+   "eventSeq": 12
+  },
+  {
+   "seq": 13,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-02 -[in-zone]-> zone:ecoloop:Molyko",
+   "eventSeq": 13
+  },
+  {
+   "seq": 14,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-03 (pickup)",
+   "eventSeq": 14
+  },
+  {
+   "seq": 15,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-03 -[in-zone]-> zone:ecoloop:Molyko",
+   "eventSeq": 15
+  },
+  {
+   "seq": 16,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-04 (pickup)",
+   "eventSeq": 16
+  },
+  {
+   "seq": 17,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-04 -[in-zone]-> zone:ecoloop:Molyko",
+   "eventSeq": 17
+  },
+  {
+   "seq": 18,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-05 (pickup)",
+   "eventSeq": 18
+  },
+  {
+   "seq": 19,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-05 -[in-zone]-> zone:ecoloop:Molyko",
+   "eventSeq": 19
+  },
+  {
+   "seq": 20,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-06 (pickup)",
+   "eventSeq": 20
+  },
+  {
+   "seq": 21,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-06 -[in-zone]-> zone:ecoloop:Molyko",
+   "eventSeq": 21
+  },
+  {
+   "seq": 22,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-07 (pickup)",
+   "eventSeq": 22
+  },
+  {
+   "seq": 23,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-07 -[in-zone]-> zone:ecoloop:Bonduma",
+   "eventSeq": 23
+  },
+  {
+   "seq": 24,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-08 (pickup)",
+   "eventSeq": 24
+  },
+  {
+   "seq": 25,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-08 -[in-zone]-> zone:ecoloop:Bonduma",
+   "eventSeq": 25
+  },
+  {
+   "seq": 26,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-09 (pickup)",
+   "eventSeq": 26
+  },
+  {
+   "seq": 27,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-09 -[in-zone]-> zone:ecoloop:Bonduma",
+   "eventSeq": 27
+  },
+  {
+   "seq": 28,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-10 (pickup)",
+   "eventSeq": 28
+  },
+  {
+   "seq": 29,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-10 -[in-zone]-> zone:ecoloop:Great Soppo",
+   "eventSeq": 29
+  },
+  {
+   "seq": 30,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-11 (pickup)",
+   "eventSeq": 30
+  },
+  {
+   "seq": 31,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-11 -[in-zone]-> zone:ecoloop:Great Soppo",
+   "eventSeq": 31
+  },
+  {
+   "seq": 32,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-12 (pickup)",
+   "eventSeq": 32
+  },
+  {
+   "seq": 33,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "relate",
+   "actor": "Planner",
+   "summary": "pickup:ecoloop:PU-12 -[in-zone]-> zone:ecoloop:Great Soppo",
+   "eventSeq": 33
+  },
+  {
+   "seq": 34,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "queue:ecoloop:deferred (queue)",
+   "eventSeq": 34
+  },
+  {
+   "seq": 35,
+   "at": "2026-10-24T10:34:04.800116Z",
+   "kind": "upsertEntity",
+   "actor": "Planner",
+   "summary": "queue:ecoloop:removed (queue)",
+   "eventSeq": 35
+  },
+  {
+   "seq": 36,
+   "at": "2026-10-23T07:40:00+01:00",
+   "kind": "upsertEntity",
+   "actor": "system",
+   "summary": "dump_report:ingest:DR-1 (dump_report)",
+   "eventSeq": 36
+  },
+  {
+   "seq": 37,
+   "at": "2026-10-23T10:15:00+01:00",
+   "kind": "upsertEntity",
+   "actor": "system",
+   "summary": "dump_report:ingest:DR-2 (dump_report)",
+   "eventSeq": 38
+  },
+  {
+   "seq": 38,
+   "at": "2026-10-23T19:05:00+01:00",
+   "kind": "upsertEntity",
+   "actor": "system",
+   "summary": "dump_report:ingest:DR-3 (dump_report)",
+   "eventSeq": 40
+  },
+  {
+   "seq": 39,
+   "at": "2026-10-23T08:30:00+01:00",
+   "kind": "upsertEntity",
+   "actor": "system",
+   "summary": "dump_report:ingest:DR-4 (dump_report)",
+   "eventSeq": 42
+  },
+  {
+   "seq": 40,
+   "at": "2026-10-23T07:40:00+01:00",
+   "kind": "ingest",
+   "actor": "pipeline",
+   "summary": "4 processed, 0 skipped",
+   "eventSeq": null
+  },
+  {
+   "seq": 41,
+   "at": "2026-10-23T07:40:00+01:00",
+   "kind": "upsertEntity",
+   "actor": "system",
+   "summary": "dump_report:ingest:DR-1 (dump_report)",
+   "eventSeq": 44
+  },
+  {
+   "seq": 42,
+   "at": "2026-10-23T07:40:00+01:00",
+   "kind": "relate",
+   "actor": "system",
+   "summary": "dump_report:ingest:DR-1 -[in-zone]-> zone:ecoloop:Molyko",
+   "eventSeq": 45
+  },
+  {
+   "seq": 43,
+   "at": "2026-10-23T10:15:00+01:00",
+   "kind": "upsertEntity",
+   "actor": "system",
+   "summary": "dump_report:ingest:DR-2 (dump_report)",
+   "eventSeq": 46
+  },
+  {
+   "seq": 44,
+   "at": "2026-10-23T10:15:00+01:00",
+   "kind": "relate",
+   "actor": "system",
+   "summary": "dump_report:ingest:DR-2 -[in-zone]-> zone:ecoloop:Molyko",
+   "eventSeq": 47
+  },
+  {
+   "seq": 45,
+   "at": "2026-10-23T19:05:00+01:00",
+   "kind": "upsertEntity",
+   "actor": "system",
+   "summary": "dump_report:ingest:DR-3 (dump_report)",
+   "eventSeq": 48
+  },
+  {
+   "seq": 46,
+   "at": "2026-10-23T19:05:00+01:00",
+   "kind": "relate",
+   "actor": "system",
+   "summary": "dump_report:ingest:DR-3 -[in-zone]-> zone:ecoloop:Bonduma",
+   "eventSeq": 49
+  },
+  {
+   "seq": 47,
+   "at": "2026-10-23T08:30:00+01:00",
+   "kind": "upsertEntity",
+   "actor": "system",
+   "summary": "dump_report:ingest:DR-4 (dump_report)",
+   "eventSeq": 50
+  },
+  {
+   "seq": 48,
+   "at": "2026-10-23T08:30:00+01:00",
+   "kind": "relate",
+   "actor": "system",
+   "summary": "dump_report:ingest:DR-4 -[in-zone]-> zone:ecoloop:Great Soppo",
+   "eventSeq": 51
+  },
+  {
+   "seq": 49,
+   "at": "2026-10-24T10:34:04.803247Z",
+   "kind": "assertFact",
+   "actor": "Verification",
+   "summary": "dump_report:ingest:DR-1.verification = {\"confidence\":0.91,\"decision_reason\":\"Confidence 0.91 >= 0.7 accept bar. Clear photo of mixed household waste piled at the roadside.\",\"duplicate_of\":null,\"est_kg\":80,\"lat\":4.1541,\"lon\":9.2921,\"model_duplicate\":false,\"model_error\":false,\"model_reason\":\"Clear photo of mixed household waste piled at the roadside.\",\"report_id\":\"DR-1\",\"reported_at\":\"2026-10-23T07:40:00+01:00\",\"status\":\"verified\",\"zone\":\"Molyko\"}",
+   "eventSeq": 52
+  },
+  {
+   "seq": 50,
+   "at": "2026-10-24T10:34:04.803841Z",
+   "kind": "assertFact",
+   "actor": "Verification",
+   "summary": "dump_report:ingest:DR-4.verification = {\"confidence\":0.78,\"decision_reason\":\"Confidence 0.78 >= 0.7 accept bar. Waste visible near the stream bank but partly hidden by vegetation.\",\"duplicate_of\":null,\"est_kg\":90,\"lat\":4.1438,\"lon\":9.2452,\"model_duplicate\":false,\"model_error\":false,\"model_reason\":\"Waste visible near the stream bank but partly hidden by vegetation.\",\"report_id\":\"DR-4\",\"reported_at\":\"2026-10-23T08:30:00+01:00\",\"status\":\"verified\",\"zone\":\"Great Soppo\"}",
+   "eventSeq": 53
+  },
+  {
+   "seq": 51,
+   "at": "2026-10-24T10:34:04.804153Z",
+   "kind": "assertFact",
+   "actor": "Verification",
+   "summary": "dump_report:ingest:DR-2.verification = {\"confidence\":0.86,\"decision_reason\":\"16 m and 2.6 h from DR-1 - same pile (the model agrees).\",\"duplicate_of\":\"DR-1\",\"est_kg\":80,\"lat\":4.1542,\"lon\":9.2922,\"model_duplicate\":true,\"model_error\":false,\"model_reason\":\"Appears to be the same roadside pile photographed from another angle.\",\"report_id\":\"DR-2\",\"reported_at\":\"2026-10-23T10:15:00+01:00\",\"status\":\"duplicate\",\"zone\":\"Molyko\"}",
+   "eventSeq": 54
+  },
+  {
+   "seq": 52,
+   "at": "2026-10-24T10:34:04.804455Z",
+   "kind": "assertFact",
+   "actor": "Verification",
+   "summary": "dump_report:ingest:DR-3.verification = {\"confidence\":0.45,\"decision_reason\":\"Confidence 0.45 is between 0.4 and 0.7: too weak to dispatch, too strong to discard. Image is dark and blurred; waste presence cannot be confirmed.\",\"duplicate_of\":null,\"est_kg\":60,\"lat\":4.1622,\"lon\":9.2789,\"model_duplicate\":false,\"model_error\":false,\"model_reason\":\"Image is dark and blurred; waste presence cannot be confirmed.\",\"report_id\":\"DR-3\",\"reported_at\":\"2026-10-23T19:05:00+01:00\",\"status\":\"needs_review\",\"zone\":\"Bonduma\"}",
+   "eventSeq": 55
+  },
+  {
+   "seq": 53,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-05 (stop)",
+   "eventSeq": 56
+  },
+  {
+   "seq": 54,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-05 -[assigned-to]-> collector:ecoloop:COL-1",
+   "eventSeq": 57
+  },
+  {
+   "seq": 55,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-01 (stop)",
+   "eventSeq": 58
+  },
+  {
+   "seq": 56,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-01 -[assigned-to]-> collector:ecoloop:COL-1",
+   "eventSeq": 59
+  },
+  {
+   "seq": 57,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-04 (stop)",
+   "eventSeq": 60
+  },
+  {
+   "seq": 58,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-04 -[assigned-to]-> collector:ecoloop:COL-1",
+   "eventSeq": 61
+  },
+  {
+   "seq": 59,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-03 (stop)",
+   "eventSeq": 62
+  },
+  {
+   "seq": 60,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-03 -[assigned-to]-> collector:ecoloop:COL-1",
+   "eventSeq": 63
+  },
+  {
+   "seq": 61,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-DR-1 (stop)",
+   "eventSeq": 64
+  },
+  {
+   "seq": 62,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-DR-1 -[assigned-to]-> collector:ecoloop:COL-1",
+   "eventSeq": 65
+  },
+  {
+   "seq": 63,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-06 (stop)",
+   "eventSeq": 66
+  },
+  {
+   "seq": 64,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-06 -[assigned-to]-> collector:ecoloop:COL-1",
+   "eventSeq": 67
+  },
+  {
+   "seq": 65,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-02 (stop)",
+   "eventSeq": 68
+  },
+  {
+   "seq": 66,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-02 -[assigned-to]-> collector:ecoloop:COL-1",
+   "eventSeq": 69
+  },
+  {
+   "seq": 67,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-09 (stop)",
+   "eventSeq": 70
+  },
+  {
+   "seq": 68,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-09 -[assigned-to]-> collector:ecoloop:COL-2",
+   "eventSeq": 71
+  },
+  {
+   "seq": 69,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-08 (stop)",
+   "eventSeq": 72
+  },
+  {
+   "seq": 70,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-08 -[assigned-to]-> collector:ecoloop:COL-2",
+   "eventSeq": 73
+  },
+  {
+   "seq": 71,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-07 (stop)",
+   "eventSeq": 74
+  },
+  {
+   "seq": 72,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-07 -[assigned-to]-> collector:ecoloop:COL-2",
+   "eventSeq": 75
+  },
+  {
+   "seq": 73,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-11 (stop)",
+   "eventSeq": 76
+  },
+  {
+   "seq": 74,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-11 -[assigned-to]-> collector:ecoloop:COL-3",
+   "eventSeq": 77
+  },
+  {
+   "seq": 75,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-DR-4 (stop)",
+   "eventSeq": 78
+  },
+  {
+   "seq": 76,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-DR-4 -[assigned-to]-> collector:ecoloop:COL-3",
+   "eventSeq": 79
+  },
+  {
+   "seq": 77,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-12 (stop)",
+   "eventSeq": 80
+  },
+  {
+   "seq": 78,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-12 -[assigned-to]-> collector:ecoloop:COL-3",
+   "eventSeq": 81
+  },
+  {
+   "seq": 79,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-10 (stop)",
+   "eventSeq": 82
+  },
+  {
+   "seq": 80,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-10 -[assigned-to]-> collector:ecoloop:COL-3",
+   "eventSeq": 83
+  },
+  {
+   "seq": 81,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "plan:ecoloop:v1 (plan)",
+   "eventSeq": 84
+  },
+  {
+   "seq": 82,
+   "at": "2026-10-24T10:34:04.805300Z",
+   "kind": "assertFact",
+   "actor": "Dispatch",
+   "summary": "plan:ecoloop:v1.loads = {\"COL-1\":400,\"COL-2\":105,\"COL-3\":220}",
+   "eventSeq": 85
+  },
+  {
+   "seq": 83,
+   "at": "2026-10-24T10:34:04.808807Z",
+   "kind": "assertFact",
+   "actor": "Evaluator",
+   "summary": "plan:ecoloop:v1.evaluation = {\"issues\":[\"over_capacity\"],\"passed\":false}",
+   "eventSeq": 86
+  },
+  {
+   "seq": 84,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-05 (stop)",
+   "eventSeq": 87
+  },
+  {
+   "seq": 85,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-02 (stop)",
+   "eventSeq": 88
+  },
+  {
+   "seq": 86,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-06 (stop)",
+   "eventSeq": 89
+  },
+  {
+   "seq": 87,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-03 (stop)",
+   "eventSeq": 90
+  },
+  {
+   "seq": 88,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-DR-1 (stop)",
+   "eventSeq": 91
+  },
+  {
+   "seq": 89,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-01 (stop)",
+   "eventSeq": 92
+  },
+  {
+   "seq": 90,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-01 -[assigned-to]-> collector:ecoloop:COL-2",
+   "eventSeq": 93
+  },
+  {
+   "seq": 91,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-04 (stop)",
+   "eventSeq": 94
+  },
+  {
+   "seq": 92,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "relate",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-04 -[assigned-to]-> collector:ecoloop:COL-2",
+   "eventSeq": 95
+  },
+  {
+   "seq": 93,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-09 (stop)",
+   "eventSeq": 96
+  },
+  {
+   "seq": 94,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-08 (stop)",
+   "eventSeq": 97
+  },
+  {
+   "seq": 95,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-07 (stop)",
+   "eventSeq": 98
+  },
+  {
+   "seq": 96,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-11 (stop)",
+   "eventSeq": 99
+  },
+  {
+   "seq": 97,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-DR-4 (stop)",
+   "eventSeq": 100
+  },
+  {
+   "seq": 98,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-12 (stop)",
+   "eventSeq": 101
+  },
+  {
+   "seq": 99,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "stop:ecoloop:S-PU-10 (stop)",
+   "eventSeq": 102
+  },
+  {
+   "seq": 100,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "upsertEntity",
+   "actor": "Dispatch",
+   "summary": "plan:ecoloop:v2 (plan)",
+   "eventSeq": 103
+  },
+  {
+   "seq": 101,
+   "at": "2026-10-24T10:34:04.809634Z",
+   "kind": "assertFact",
+   "actor": "Dispatch",
+   "summary": "plan:ecoloop:v2.loads = {\"COL-1\":270,\"COL-2\":235,\"COL-3\":220}",
+   "eventSeq": 104
+  },
+  {
+   "seq": 102,
+   "at": "2026-10-24T10:34:04.811994Z",
+   "kind": "assertFact",
+   "actor": "Evaluator",
+   "summary": "plan:ecoloop:v2.evaluation = {\"issues\":[],\"passed\":true}",
+   "eventSeq": 105
+  },
+  {
+   "seq": 103,
+   "at": "2026-10-24T10:34:04.812747Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-PU-05.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
+   "eventSeq": 106
+  },
+  {
+   "seq": 104,
+   "at": "2026-10-24T10:34:04.812921Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-PU-02.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
+   "eventSeq": 107
+  },
+  {
+   "seq": 105,
+   "at": "2026-10-24T10:34:04.813134Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-PU-06.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
+   "eventSeq": 108
+  },
+  {
+   "seq": 106,
+   "at": "2026-10-24T10:34:04.813266Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-PU-03.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
+   "eventSeq": 109
+  },
+  {
+   "seq": 107,
+   "at": "2026-10-24T10:34:04.813395Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-DR-1.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
+   "eventSeq": 110
+  },
+  {
+   "seq": 108,
+   "at": "2026-10-24T10:34:04.813527Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-PU-01.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
+   "eventSeq": 111
+  },
+  {
+   "seq": 109,
+   "at": "2026-10-24T10:34:04.813663Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-PU-04.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
+   "eventSeq": 112
+  },
+  {
+   "seq": 110,
+   "at": "2026-10-24T10:34:04.813781Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-PU-09.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
+   "eventSeq": 113
+  },
+  {
+   "seq": 111,
+   "at": "2026-10-24T10:34:04.813902Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-PU-07.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
+   "eventSeq": 114
+  },
+  {
+   "seq": 112,
+   "at": "2026-10-24T10:34:04.814063Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-PU-11.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
+   "eventSeq": 115
+  },
+  {
+   "seq": 113,
+   "at": "2026-10-24T10:34:04.814192Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-PU-12.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
+   "eventSeq": 116
+  },
+  {
+   "seq": 114,
+   "at": "2026-10-24T10:34:04.814337Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-PU-10.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
+   "eventSeq": 117
+  },
+  {
+   "seq": 115,
+   "at": "2026-10-24T10:34:04.814473Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-PU-08.approval = {\"decision\":\"human_review\",\"reasons\":[\"volume (40 kg) is an unweighed estimate and COL-2 is at 94% of capacity - an under-estimate would overload it\"]}",
+   "eventSeq": 118
+  },
+  {
+   "seq": 116,
+   "at": "2026-10-24T10:34:04.814656Z",
+   "kind": "assertFact",
+   "actor": "Risk",
+   "summary": "stop:ecoloop:S-DR-4.approval = {\"decision\":\"human_review\",\"reasons\":[\"photo confidence 0.78 passed verification but is below the 0.85 auto-approve bar\"]}",
+   "eventSeq": 119
+  }
+ ],
+ "merge_queue": []
+}

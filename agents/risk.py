@@ -9,12 +9,14 @@ import config
 class RiskAgent:
     name = "Risk"
 
-    def __init__(self, tracer):
+    def __init__(self, tracer, world):
         self.tracer = tracer
+        self.world = world
 
-    def assess(self, plan, verification, final_evaluation):
+    def assess(self, plan, final_evaluation):
         auto_approved, human_review = [], []
         plan_passed = final_evaluation["passed"]
+        verification = self.world.verification_results()  # read from shared state, not handed in
 
         for cid, route in plan["routes"].items():
             load_ratio = route["load_kg"] / route["capacity_kg"]
@@ -29,6 +31,10 @@ class RiskAgent:
                                    f"{load_ratio:.0%} of capacity - an under-estimate would overload it")
                 if not plan_passed:
                     reasons.append("plan never passed the Evaluator within the revision limit")
+                shared_cid = self.world.assigned_collector(stop["stop_id"])
+                if shared_cid != cid:
+                    reasons.append(f"shared state assigns this stop to {shared_cid or 'no collector'}, "
+                                   f"but the plan puts it on {cid}")
                 item = {"stop_id": stop["stop_id"], "source_id": stop["source_id"], "kind": stop["kind"],
                         "zone": stop["zone"], "collector_id": cid, "reasons": reasons}
                 (human_review if reasons else auto_approved).append(item)
@@ -49,7 +55,10 @@ class RiskAgent:
         else:
             status = "auto_approved"
 
+        for item in auto_approved:
+            self.world.record_approval(item, "auto_approved")
         for item in human_review:
+            self.world.record_approval(item, "human_review")
             self.tracer.log(self.name, f"flag {item['source_id']}", "; ".join(item["reasons"]),
                             kind=item["kind"], collector_id=item["collector_id"])
         self.tracer.log(self.name, "decision",

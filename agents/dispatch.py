@@ -13,8 +13,9 @@ from geo import haversine_m, nearest_neighbour_order
 class DispatchAgent:
     name = "Dispatch"
 
-    def __init__(self, tracer, depot, zones, collectors):
+    def __init__(self, tracer, world, depot, zones, collectors):
         self.tracer = tracer
+        self.world = world
         self.depot = depot
         self.zones = zones
         self.collectors = {c["id"]: c for c in collectors}
@@ -135,7 +136,9 @@ class DispatchAgent:
                 "distance_km_straight_line": round(total_m / 1000, 2),
                 "stops": [{**s, "seq": i + 1, "leg_m": round(leg)} for i, (s, leg) in enumerate(zip(ordered, legs))],
             }
-        return {"version": version, "routes": routes, "deferred": deferred, "changes": changes}
+        plan = {"version": version, "routes": routes, "deferred": deferred, "changes": changes}
+        self.world.record_plan(plan)
+        return plan
 
     def _home_collector(self, zone):
         for cid, col in self.collectors.items():
