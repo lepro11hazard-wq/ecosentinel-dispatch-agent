@@ -35,6 +35,52 @@ Planner (sequences + routes feedback, never approves)
 
 Thresholds are in `config.py`.
 
+## Meterless engine: World Model
+
+**Engine:** [Meterless World Model](https://github.com/Meterless/Meterless/tree/main/engines/world-model), ported to Python (standard library only).
+
+**What it does here:** it gives the five agents one shared, event-sourced state per run, instead of each agent passing dicts to the next.
+Every write is an appended event with provenance (which agent wrote it, and when), and the current state is a fold over that log.
+
+- **Planner** seeds the world with zones, collectors and pickups. Dump reports go in through the engine's idempotent `ingest`.
+- **Verification** records one `verification` fact per report.
+- **Dispatch** writes an `assigned-to` edge for every stop in every plan version. When a revision moves a stop, the old edge is closed
+  (`validTo` and `supersededBy`) rather than deleted, so the world holds the full reassignment history.
+- **Evaluator** reads the verified reports from the world rather than receiving them, and records its verdict per version.
+- **Risk** reads held reports and each stop's current collector from the world. If the plan and the world disagree, that stop
+  goes to human review instead of being auto-approved. It then records each approval decision.
+
+At the end of a run the world is replayed from its event log and checked against the live state. The result is the `world_model`
+block in `outputs/last_run.json`, and the full event log and audit trail are saved to `outputs/world_model.json`.
+
+**Where it is:**
+
+| Path | What |
+|---|---|
+| `world_model/core.py` | The engine: event log, stable IDs, merge bands, provenance, bitemporal edges, idempotent ingest, audit, replay |
+| `shared_world.py` | EcoLoop's use of it: what each agent writes and reads |
+| `world_model/conformance/index.ts` | Thin adapter so the Meterless TypeScript conformance runner can drive the Python engine (no logic in it) |
+| `world_model/bridge.py` | The JSON bridge that adapter calls |
+
+Not ported, because this pipeline doesn't need them: story clustering and velocity scoring, operator merge approval, and the control-plane UI.
+
+**How to test it:**
+
+```
+# Meterless conformance suite (needs Node.js 18+; 8/8 checks pass)
+git clone https://github.com/Meterless/Meterless
+cd Meterless/engines/world-model
+WORLD_MODEL_IMPL=/abs/path/to/ecosentinel-dispatch-agent/world_model/conformance/index.ts npx tsx conformance/runner.ts
+```
+
+On Windows PowerShell, set the variable first with `$env:WORLD_MODEL_IMPL="E:/path/to/ecosentinel-dispatch-agent/world_model/conformance/index.ts"`,
+using forward slashes. The adapter runs `python`, or `python3` on macOS/Linux; set `WORLD_MODEL_PYTHON` to choose another interpreter.
+
+```
+# Engine contracts and pipeline integration (needs pytest: pip install pytest)
+python -m pytest tests
+```
+
 ## Live mode
 
 Set `SAMPLE_MODE=false` in `.env` with `NVIDIA_API_KEY`, and put report photos at `data/photos/DR-1.jpg` and so on, each under ~130 KB.

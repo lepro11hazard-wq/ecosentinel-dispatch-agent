@@ -1,12 +1,12 @@
 {
   "meta": {
     "project": "EcoSentinel Dispatch Agent (EcoLoop)",
-    "generated_at": "2026-10-24T10:34:04.829736+00:00",
+    "generated_at": "2026-10-24T10:34:39.339904+00:00",
     "service_date": "2026-10-24",
     "sample_mode": true,
     "data_notice": "SIMULATED DATA - generated for SAMPLE_MODE, not real EcoLoop production records. Zone names are real Buea neighbourhoods; coordinates are approximate.",
     "vision_model": null,
-    "runtime_s": 0.03,
+    "runtime_s": 0.01,
     "scope_limits": [
       "Stops are ordered by straight-line (haversine) distance with a greedy nearest-neighbour heuristic, not road distance or travel time.",
       "Collector capacity is checked by weight (kg) only; volume, time windows and shift length are not modelled.",
@@ -814,7 +814,7 @@
   "trace": [
     {
       "seq": 1,
-      "t_ms": 3.4,
+      "t_ms": 2.9,
       "agent": "Planner",
       "step": "shared state",
       "reasoning": "Seeded World Model 'ecoloop-2026-10-24' with 24 entities; agents now read and write decisions through it.",
@@ -822,7 +822,7 @@
     },
     {
       "seq": 2,
-      "t_ms": 3.6,
+      "t_ms": 3.0,
       "agent": "Planner",
       "step": "task plan",
       "reasoning": "Decomposed the day into: Verification:verify_dump_reports -> Dispatch:draft_routes -> Evaluator:critique_and_revise -> Risk:approve_or_escalate. Planner sequences only; it does not approve.",
@@ -853,7 +853,7 @@
     },
     {
       "seq": 3,
-      "t_ms": 3.6,
+      "t_ms": 3.0,
       "agent": "Verification",
       "step": "start",
       "reasoning": "Checking 4 dump reports oldest-first using simulated vision labels, so a later re-report of the same pile is the one marked duplicate.",
@@ -861,7 +861,7 @@
     },
     {
       "seq": 4,
-      "t_ms": 4.1,
+      "t_ms": 3.1,
       "agent": "Verification",
       "step": "verdict DR-1",
       "reasoning": "VERIFIED: Confidence 0.91 >= 0.7 accept bar. Clear photo of mixed household waste piled at the roadside.",
@@ -873,7 +873,7 @@
     },
     {
       "seq": 5,
-      "t_ms": 4.5,
+      "t_ms": 3.3,
       "agent": "Verification",
       "step": "verdict DR-4",
       "reasoning": "VERIFIED: Confidence 0.78 >= 0.7 accept bar. Waste visible near the stream bank but partly hidden by vegetation.",
@@ -885,7 +885,7 @@
     },
     {
       "seq": 6,
-      "t_ms": 4.8,
+      "t_ms": 3.4,
       "agent": "Verification",
       "step": "verdict DR-2",
       "reasoning": "DUPLICATE: 16 m and 2.6 h from DR-1 - same pile (the model agrees).",
@@ -897,7 +897,7 @@
     },
     {
       "seq": 7,
-      "t_ms": 5.1,
+      "t_ms": 3.5,
       "agent": "Verification",
       "step": "verdict DR-3",
       "reasoning": "NEEDS_REVIEW: Confidence 0.45 is between 0.4 and 0.7: too weak to dispatch, too strong to discard. Image is dark and blurred; waste presence cannot be confirmed.",
@@ -909,7 +909,7 @@
     },
     {
       "seq": 8,
-      "t_ms": 5.2,
+      "t_ms": 3.5,
       "agent": "Verification",
       "step": "summary",
       "reasoning": "Only the 2 verified report(s) go to Dispatch; 1 held for human review, 1 merged as duplicates, 0 rejected.",
@@ -924,7 +924,7 @@
     },
     {
       "seq": 9,
-      "t_ms": 5.2,
+      "t_ms": 3.5,
       "agent": "Planner",
       "step": "delegate",
       "reasoning": "Handing 12 pickups and 2 verified reports to Dispatch for a first draft.",
@@ -932,7 +932,7 @@
     },
     {
       "seq": 10,
-      "t_ms": 8.9,
+      "t_ms": 4.7,
       "agent": "Dispatch",
       "step": "draft v1",
       "reasoning": "Assigned 14 stops (12 pickups + 2 verified dump reports) to each zone's home collector; ordered by straight-line nearest neighbour.",
@@ -946,7 +946,7 @@
     },
     {
       "seq": 11,
-      "t_ms": 9.1,
+      "t_ms": 4.8,
       "agent": "Evaluator",
       "step": "critique v1",
       "reasoning": "v1 REJECTED with 1 issue(s): COL-1 carries 400 kg but capacity is 300 kg (100 kg over).",
@@ -963,7 +963,7 @@
     },
     {
       "seq": 12,
-      "t_ms": 9.2,
+      "t_ms": 4.8,
       "agent": "Evaluator",
       "step": "explain v1",
       "reasoning": "COL-1 would be overloaded by 100 kg; COL-2 has 145 kg spare, COL-3 has 30 kg spare.",
@@ -975,7 +975,7 @@
     },
     {
       "seq": 13,
-      "t_ms": 9.4,
+      "t_ms": 4.9,
       "agent": "Planner",
       "step": "route feedback",
       "reasoning": "Sending 1 fixable issue(s) back to Dispatch (revision 1 of max 3).",
@@ -987,7 +987,7 @@
     },
     {
       "seq": 14,
-      "t_ms": 12.2,
+      "t_ms": 5.8,
       "agent": "Dispatch",
       "step": "revision v2",
       "reasoning": "Applied 2 change(s) in response to 1 evaluator issue(s).",
@@ -1017,7 +1017,7 @@
     },
     {
       "seq": 15,
-      "t_ms": 12.4,
+      "t_ms": 5.9,
       "agent": "Evaluator",
       "step": "critique v2",
       "reasoning": "v2 PASSES: every collector within capacity, only verified reports used, every zone with demand is served.",
@@ -1027,7 +1027,7 @@
     },
     {
       "seq": 16,
-      "t_ms": 12.6,
+      "t_ms": 6.0,
       "agent": "Planner",
       "step": "delegate",
       "reasoning": "Handing plan v2 to Risk for approval decisions.",
@@ -1035,7 +1035,7 @@
     },
     {
       "seq": 17,
-      "t_ms": 15.1,
+      "t_ms": 6.9,
       "agent": "Risk",
       "step": "flag PU-08",
       "reasoning": "volume (40 kg) is an unweighed estimate and COL-2 is at 94% of capacity - an under-estimate would overload it",
@@ -1046,7 +1046,7 @@
     },
     {
       "seq": 18,
-      "t_ms": 15.2,
+      "t_ms": 7.0,
       "agent": "Risk",
       "step": "flag DR-4",
       "reasoning": "photo confidence 0.78 passed verification but is below the 0.85 auto-approve bar",
@@ -1057,7 +1057,7 @@
     },
     {
       "seq": 19,
-      "t_ms": 15.3,
+      "t_ms": 7.0,
       "agent": "Risk",
       "step": "flag DR-3",
       "reasoning": "Confidence 0.45 is between 0.4 and 0.7: too weak to dispatch, too strong to discard. Image is dark and blurred; waste presence cannot be confirmed.",
@@ -1068,7 +1068,7 @@
     },
     {
       "seq": 20,
-      "t_ms": 15.3,
+      "t_ms": 7.0,
       "agent": "Risk",
       "step": "decision",
       "reasoning": "Plan status 'partially_auto_approved': 12 assignment(s) auto-approved, 3 item(s) sent to human review.",

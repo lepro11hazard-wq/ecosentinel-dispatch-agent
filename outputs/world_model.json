@@ -21,13 +21,13 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 2,
@@ -48,13 +48,13 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 3,
@@ -75,13 +75,13 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 4,
@@ -105,36 +105,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 5,
    "kind": "relate",
    "payload": {
-    "id": "rel_85eb2be97138d4f6",
+    "id": "rel_bafa7298c009c1a7",
     "from": "collector:ecoloop:COL-1",
     "type": "home-zone",
     "to": "zone:ecoloop:Molyko",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 6,
@@ -158,36 +158,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 7,
    "kind": "relate",
    "payload": {
-    "id": "rel_7694ad611fa010b4",
+    "id": "rel_f30636d02cd426d6",
     "from": "collector:ecoloop:COL-2",
     "type": "home-zone",
     "to": "zone:ecoloop:Bonduma",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 8,
@@ -211,36 +211,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 9,
    "kind": "relate",
    "payload": {
-    "id": "rel_c0bbd6930c90763b",
+    "id": "rel_4314f387f210f885",
     "from": "collector:ecoloop:COL-3",
     "type": "home-zone",
     "to": "zone:ecoloop:Great Soppo",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 10,
@@ -265,36 +265,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 11,
    "kind": "relate",
    "payload": {
-    "id": "rel_2c491fc28c0734f0",
+    "id": "rel_a1723e328b6ef883",
     "from": "pickup:ecoloop:PU-01",
     "type": "in-zone",
     "to": "zone:ecoloop:Molyko",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 12,
@@ -319,36 +319,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 13,
    "kind": "relate",
    "payload": {
-    "id": "rel_2fe2865bd10b5d5d",
+    "id": "rel_346ea1f826f12a36",
     "from": "pickup:ecoloop:PU-02",
     "type": "in-zone",
     "to": "zone:ecoloop:Molyko",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 14,
@@ -373,36 +373,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 15,
    "kind": "relate",
    "payload": {
-    "id": "rel_85504f64c9350dd0",
+    "id": "rel_5b7132913446d1eb",
     "from": "pickup:ecoloop:PU-03",
     "type": "in-zone",
     "to": "zone:ecoloop:Molyko",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 16,
@@ -427,36 +427,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 17,
    "kind": "relate",
    "payload": {
-    "id": "rel_5960cafa16dea61a",
+    "id": "rel_fa7d18e71878557b",
     "from": "pickup:ecoloop:PU-04",
     "type": "in-zone",
     "to": "zone:ecoloop:Molyko",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 18,
@@ -481,36 +481,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 19,
    "kind": "relate",
    "payload": {
-    "id": "rel_08a01a42e0cc4424",
+    "id": "rel_7090d2e6d173155c",
     "from": "pickup:ecoloop:PU-05",
     "type": "in-zone",
     "to": "zone:ecoloop:Molyko",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 20,
@@ -535,36 +535,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 21,
    "kind": "relate",
    "payload": {
-    "id": "rel_aed289457a47603b",
+    "id": "rel_c6809d2b6171aad3",
     "from": "pickup:ecoloop:PU-06",
     "type": "in-zone",
     "to": "zone:ecoloop:Molyko",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 22,
@@ -589,36 +589,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 23,
    "kind": "relate",
    "payload": {
-    "id": "rel_a8dd29c4ed1697fa",
+    "id": "rel_615f9cb142a01915",
     "from": "pickup:ecoloop:PU-07",
     "type": "in-zone",
     "to": "zone:ecoloop:Bonduma",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 24,
@@ -643,36 +643,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 25,
    "kind": "relate",
    "payload": {
-    "id": "rel_72bf90d544ab5257",
+    "id": "rel_df4b484cf8b9ff2d",
     "from": "pickup:ecoloop:PU-08",
     "type": "in-zone",
     "to": "zone:ecoloop:Bonduma",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 26,
@@ -697,36 +697,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 27,
    "kind": "relate",
    "payload": {
-    "id": "rel_2a122ef9cc69ca9c",
+    "id": "rel_b9db098190db007d",
     "from": "pickup:ecoloop:PU-09",
     "type": "in-zone",
     "to": "zone:ecoloop:Bonduma",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 28,
@@ -751,36 +751,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 29,
    "kind": "relate",
    "payload": {
-    "id": "rel_2f58bbb2ea265d2b",
+    "id": "rel_ba4999e9beb49812",
     "from": "pickup:ecoloop:PU-10",
     "type": "in-zone",
     "to": "zone:ecoloop:Great Soppo",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 30,
@@ -805,36 +805,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 31,
    "kind": "relate",
    "payload": {
-    "id": "rel_7d33cc76328de768",
+    "id": "rel_fe6d32f24c5e778b",
     "from": "pickup:ecoloop:PU-11",
     "type": "in-zone",
     "to": "zone:ecoloop:Great Soppo",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 32,
@@ -859,36 +859,36 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 33,
    "kind": "relate",
    "payload": {
-    "id": "rel_3f1e44231f07e8dc",
+    "id": "rel_e2c8f3dcf237cc1c",
     "from": "pickup:ecoloop:PU-12",
     "type": "in-zone",
     "to": "zone:ecoloop:Great Soppo",
     "context": null,
     "attrs": {},
-    "validFrom": "2026-10-24T10:34:04.800116Z",
+    "validFrom": "2026-10-24T10:34:39.326709Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 34,
@@ -906,13 +906,13 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 35,
@@ -930,13 +930,13 @@
     "source": {
      "kind": "input",
      "by": "Planner",
-     "at": "2026-10-24T10:34:04.800116Z"
+     "at": "2026-10-24T10:34:39.326709Z"
     },
-    "createdAt": "2026-10-24T10:34:04.800116Z",
-    "updatedAt": "2026-10-24T10:34:04.800116Z"
+    "createdAt": "2026-10-24T10:34:39.326709Z",
+    "updatedAt": "2026-10-24T10:34:39.326709Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.800116Z"
+   "at": "2026-10-24T10:34:39.326709Z"
   },
   {
    "seq": 36,
@@ -1326,7 +1326,7 @@
    "seq": 52,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_a2f44f9ca30264b8",
+    "id": "fact_d5c2c4a8857868b6",
     "about": "dump_report:ingest:DR-1",
     "predicate": "verification",
     "value": {
@@ -1348,18 +1348,18 @@
     "source": {
      "kind": "agent",
      "by": "Verification",
-     "at": "2026-10-24T10:34:04.803247Z"
+     "at": "2026-10-24T10:34:39.329281Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.803247Z"
+    "assertedAt": "2026-10-24T10:34:39.329281Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.803247Z"
+   "at": "2026-10-24T10:34:39.329281Z"
   },
   {
    "seq": 53,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_0c01a82528ff1d1d",
+    "id": "fact_1bc93b9b555839b2",
     "about": "dump_report:ingest:DR-4",
     "predicate": "verification",
     "value": {
@@ -1381,18 +1381,18 @@
     "source": {
      "kind": "agent",
      "by": "Verification",
-     "at": "2026-10-24T10:34:04.803841Z"
+     "at": "2026-10-24T10:34:39.329444Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.803841Z"
+    "assertedAt": "2026-10-24T10:34:39.329444Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.803841Z"
+   "at": "2026-10-24T10:34:39.329444Z"
   },
   {
    "seq": 54,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_4ffc3a284a5707e6",
+    "id": "fact_47727e602454949d",
     "about": "dump_report:ingest:DR-2",
     "predicate": "verification",
     "value": {
@@ -1414,18 +1414,18 @@
     "source": {
      "kind": "agent",
      "by": "Verification",
-     "at": "2026-10-24T10:34:04.804153Z"
+     "at": "2026-10-24T10:34:39.329574Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.804153Z"
+    "assertedAt": "2026-10-24T10:34:39.329574Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.804153Z"
+   "at": "2026-10-24T10:34:39.329574Z"
   },
   {
    "seq": 55,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_a9e252df93571411",
+    "id": "fact_570e31bba98ab772",
     "about": "dump_report:ingest:DR-3",
     "predicate": "verification",
     "value": {
@@ -1447,12 +1447,12 @@
     "source": {
      "kind": "agent",
      "by": "Verification",
-     "at": "2026-10-24T10:34:04.804455Z"
+     "at": "2026-10-24T10:34:39.329713Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.804455Z"
+    "assertedAt": "2026-10-24T10:34:39.329713Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.804455Z"
+   "at": "2026-10-24T10:34:39.329713Z"
   },
   {
    "seq": 56,
@@ -1477,19 +1477,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 57,
    "kind": "relate",
    "payload": {
-    "id": "rel_18ef463bc317d5c2",
+    "id": "rel_0ccfa2716141e0b6",
     "from": "stop:ecoloop:S-PU-05",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-1",
@@ -1497,18 +1497,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 58,
@@ -1533,19 +1533,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 59,
    "kind": "relate",
    "payload": {
-    "id": "rel_a7b13bd0d0f12cab",
+    "id": "rel_751f5ad225b7a31a",
     "from": "stop:ecoloop:S-PU-01",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-1",
@@ -1553,18 +1553,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 60,
@@ -1589,19 +1589,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 61,
    "kind": "relate",
    "payload": {
-    "id": "rel_57c8948615cbbb51",
+    "id": "rel_3f806765af8a64eb",
     "from": "stop:ecoloop:S-PU-04",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-1",
@@ -1609,18 +1609,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 62,
@@ -1645,19 +1645,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 63,
    "kind": "relate",
    "payload": {
-    "id": "rel_bf22e79c0444ba02",
+    "id": "rel_a4ac556076180e0f",
     "from": "stop:ecoloop:S-PU-03",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-1",
@@ -1665,18 +1665,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 64,
@@ -1702,19 +1702,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 65,
    "kind": "relate",
    "payload": {
-    "id": "rel_39a53e46fb772eb9",
+    "id": "rel_362461eceeb6797f",
     "from": "stop:ecoloop:S-DR-1",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-1",
@@ -1722,18 +1722,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 66,
@@ -1758,19 +1758,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 67,
    "kind": "relate",
    "payload": {
-    "id": "rel_723957fc600a75e7",
+    "id": "rel_ac5b44907e76519b",
     "from": "stop:ecoloop:S-PU-06",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-1",
@@ -1778,18 +1778,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 68,
@@ -1814,19 +1814,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 69,
    "kind": "relate",
    "payload": {
-    "id": "rel_df5a0d249b294bdd",
+    "id": "rel_a2864b4e9509aaf2",
     "from": "stop:ecoloop:S-PU-02",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-1",
@@ -1834,18 +1834,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 70,
@@ -1870,19 +1870,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 71,
    "kind": "relate",
    "payload": {
-    "id": "rel_0b60e34535a85b98",
+    "id": "rel_11899f27e230d6fd",
     "from": "stop:ecoloop:S-PU-09",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-2",
@@ -1890,18 +1890,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 72,
@@ -1926,19 +1926,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 73,
    "kind": "relate",
    "payload": {
-    "id": "rel_3f191b3d26484557",
+    "id": "rel_2ce7a94815016af2",
     "from": "stop:ecoloop:S-PU-08",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-2",
@@ -1946,18 +1946,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 74,
@@ -1982,19 +1982,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 75,
    "kind": "relate",
    "payload": {
-    "id": "rel_d9210ead787ad7f3",
+    "id": "rel_9b1c0bc61efb9364",
     "from": "stop:ecoloop:S-PU-07",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-2",
@@ -2002,18 +2002,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 76,
@@ -2038,19 +2038,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 77,
    "kind": "relate",
    "payload": {
-    "id": "rel_a431574708fb1461",
+    "id": "rel_d492fa55233c7a56",
     "from": "stop:ecoloop:S-PU-11",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-3",
@@ -2058,18 +2058,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 78,
@@ -2095,19 +2095,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 79,
    "kind": "relate",
    "payload": {
-    "id": "rel_b30cf8061545237f",
+    "id": "rel_0ec7b782467059d8",
     "from": "stop:ecoloop:S-DR-4",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-3",
@@ -2115,18 +2115,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 80,
@@ -2151,19 +2151,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 81,
    "kind": "relate",
    "payload": {
-    "id": "rel_8c6be4db08c0b5f7",
+    "id": "rel_0f499be3b2b38090",
     "from": "stop:ecoloop:S-PU-12",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-3",
@@ -2171,18 +2171,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 82,
@@ -2207,19 +2207,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 83,
    "kind": "relate",
    "payload": {
-    "id": "rel_156b52067a9e5e2f",
+    "id": "rel_b88c2edb850d94fe",
     "from": "stop:ecoloop:S-PU-10",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-3",
@@ -2227,18 +2227,18 @@
     "attrs": {
      "plan_version": 1
     },
-    "validFrom": "2026-10-24T10:34:04.805300Z",
+    "validFrom": "2026-10-24T10:34:39.330033Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 84,
@@ -2254,19 +2254,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "createdAt": "2026-10-24T10:34:04.805300Z",
-    "updatedAt": "2026-10-24T10:34:04.805300Z"
+    "createdAt": "2026-10-24T10:34:39.330033Z",
+    "updatedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 85,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_6e2e2696d924266b",
+    "id": "fact_a699b4527c0c6e55",
     "about": "plan:ecoloop:v1",
     "predicate": "loads",
     "value": {
@@ -2278,18 +2278,18 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.805300Z"
+     "at": "2026-10-24T10:34:39.330033Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.805300Z"
+    "assertedAt": "2026-10-24T10:34:39.330033Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.805300Z"
+   "at": "2026-10-24T10:34:39.330033Z"
   },
   {
    "seq": 86,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_68ad017514443507",
+    "id": "fact_3515b07f26fae427",
     "about": "plan:ecoloop:v1",
     "predicate": "evaluation",
     "value": {
@@ -2302,12 +2302,12 @@
     "source": {
      "kind": "agent",
      "by": "Evaluator",
-     "at": "2026-10-24T10:34:04.808807Z"
+     "at": "2026-10-24T10:34:39.331103Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.808807Z"
+    "assertedAt": "2026-10-24T10:34:39.331103Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.808807Z"
+   "at": "2026-10-24T10:34:39.331103Z"
   },
   {
    "seq": 87,
@@ -2332,13 +2332,13 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 88,
@@ -2363,13 +2363,13 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 89,
@@ -2394,13 +2394,13 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 90,
@@ -2425,13 +2425,13 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 91,
@@ -2457,13 +2457,13 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 92,
@@ -2488,19 +2488,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 93,
    "kind": "relate",
    "payload": {
-    "id": "rel_5028ad3a97ac0793",
+    "id": "rel_0a064c64636325fb",
     "from": "stop:ecoloop:S-PU-01",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-2",
@@ -2508,18 +2508,18 @@
     "attrs": {
      "plan_version": 2
     },
-    "validFrom": "2026-10-24T10:34:04.809634Z",
+    "validFrom": "2026-10-24T10:34:39.331417Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 94,
@@ -2544,19 +2544,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 95,
    "kind": "relate",
    "payload": {
-    "id": "rel_afce3d78150d7479",
+    "id": "rel_6f0b960ab564bab7",
     "from": "stop:ecoloop:S-PU-04",
     "type": "assigned-to",
     "to": "collector:ecoloop:COL-2",
@@ -2564,18 +2564,18 @@
     "attrs": {
      "plan_version": 2
     },
-    "validFrom": "2026-10-24T10:34:04.809634Z",
+    "validFrom": "2026-10-24T10:34:39.331417Z",
     "validTo": null,
     "schemaVersion": 1,
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 96,
@@ -2600,13 +2600,13 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 97,
@@ -2631,13 +2631,13 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 98,
@@ -2662,13 +2662,13 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 99,
@@ -2693,13 +2693,13 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 100,
@@ -2725,13 +2725,13 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 101,
@@ -2756,13 +2756,13 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 102,
@@ -2787,13 +2787,13 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 103,
@@ -2809,19 +2809,19 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "createdAt": "2026-10-24T10:34:04.809634Z",
-    "updatedAt": "2026-10-24T10:34:04.809634Z"
+    "createdAt": "2026-10-24T10:34:39.331417Z",
+    "updatedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 104,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_cbe01c1c1c3d71ac",
+    "id": "fact_40115e6477a78c88",
     "about": "plan:ecoloop:v2",
     "predicate": "loads",
     "value": {
@@ -2833,18 +2833,18 @@
     "source": {
      "kind": "agent",
      "by": "Dispatch",
-     "at": "2026-10-24T10:34:04.809634Z"
+     "at": "2026-10-24T10:34:39.331417Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.809634Z"
+    "assertedAt": "2026-10-24T10:34:39.331417Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.809634Z"
+   "at": "2026-10-24T10:34:39.331417Z"
   },
   {
    "seq": 105,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_514027d974c9e873",
+    "id": "fact_79c40720948841c2",
     "about": "plan:ecoloop:v2",
     "predicate": "evaluation",
     "value": {
@@ -2855,18 +2855,18 @@
     "source": {
      "kind": "agent",
      "by": "Evaluator",
-     "at": "2026-10-24T10:34:04.811994Z"
+     "at": "2026-10-24T10:34:39.332214Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.811994Z"
+    "assertedAt": "2026-10-24T10:34:39.332214Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.811994Z"
+   "at": "2026-10-24T10:34:39.332214Z"
   },
   {
    "seq": 106,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_eadfae06256ec512",
+    "id": "fact_7467029ce7015bbc",
     "about": "stop:ecoloop:S-PU-05",
     "predicate": "approval",
     "value": {
@@ -2877,18 +2877,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.812747Z"
+     "at": "2026-10-24T10:34:39.332471Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.812747Z"
+    "assertedAt": "2026-10-24T10:34:39.332471Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.812747Z"
+   "at": "2026-10-24T10:34:39.332471Z"
   },
   {
    "seq": 107,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_41b5f7a51fd812a6",
+    "id": "fact_d61dcc9f1b70fb8f",
     "about": "stop:ecoloop:S-PU-02",
     "predicate": "approval",
     "value": {
@@ -2899,18 +2899,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.812921Z"
+     "at": "2026-10-24T10:34:39.332543Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.812921Z"
+    "assertedAt": "2026-10-24T10:34:39.332543Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.812921Z"
+   "at": "2026-10-24T10:34:39.332543Z"
   },
   {
    "seq": 108,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_5a7561863354256d",
+    "id": "fact_7991b1a7ab9c16d6",
     "about": "stop:ecoloop:S-PU-06",
     "predicate": "approval",
     "value": {
@@ -2921,18 +2921,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.813134Z"
+     "at": "2026-10-24T10:34:39.332598Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.813134Z"
+    "assertedAt": "2026-10-24T10:34:39.332598Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.813134Z"
+   "at": "2026-10-24T10:34:39.332598Z"
   },
   {
    "seq": 109,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_5c4a06f6c55d9e23",
+    "id": "fact_16939728a717b79f",
     "about": "stop:ecoloop:S-PU-03",
     "predicate": "approval",
     "value": {
@@ -2943,18 +2943,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.813266Z"
+     "at": "2026-10-24T10:34:39.332678Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.813266Z"
+    "assertedAt": "2026-10-24T10:34:39.332678Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.813266Z"
+   "at": "2026-10-24T10:34:39.332678Z"
   },
   {
    "seq": 110,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_9054c54ced2d4a04",
+    "id": "fact_6281ab3206795c9a",
     "about": "stop:ecoloop:S-DR-1",
     "predicate": "approval",
     "value": {
@@ -2965,18 +2965,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.813395Z"
+     "at": "2026-10-24T10:34:39.332731Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.813395Z"
+    "assertedAt": "2026-10-24T10:34:39.332731Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.813395Z"
+   "at": "2026-10-24T10:34:39.332731Z"
   },
   {
    "seq": 111,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_9f864072d91e07ad",
+    "id": "fact_d427cd0df090d6ba",
     "about": "stop:ecoloop:S-PU-01",
     "predicate": "approval",
     "value": {
@@ -2987,18 +2987,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.813527Z"
+     "at": "2026-10-24T10:34:39.332782Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.813527Z"
+    "assertedAt": "2026-10-24T10:34:39.332782Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.813527Z"
+   "at": "2026-10-24T10:34:39.332782Z"
   },
   {
    "seq": 112,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_7913ed6d38796669",
+    "id": "fact_7e2f8f1fb26747c8",
     "about": "stop:ecoloop:S-PU-04",
     "predicate": "approval",
     "value": {
@@ -3009,18 +3009,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.813663Z"
+     "at": "2026-10-24T10:34:39.332834Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.813663Z"
+    "assertedAt": "2026-10-24T10:34:39.332834Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.813663Z"
+   "at": "2026-10-24T10:34:39.332834Z"
   },
   {
    "seq": 113,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_92b84819723f20d7",
+    "id": "fact_042739fc08993cfa",
     "about": "stop:ecoloop:S-PU-09",
     "predicate": "approval",
     "value": {
@@ -3031,18 +3031,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.813781Z"
+     "at": "2026-10-24T10:34:39.332882Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.813781Z"
+    "assertedAt": "2026-10-24T10:34:39.332882Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.813781Z"
+   "at": "2026-10-24T10:34:39.332882Z"
   },
   {
    "seq": 114,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_e308dda846ab426c",
+    "id": "fact_c2b7b519198c1669",
     "about": "stop:ecoloop:S-PU-07",
     "predicate": "approval",
     "value": {
@@ -3053,18 +3053,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.813902Z"
+     "at": "2026-10-24T10:34:39.332929Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.813902Z"
+    "assertedAt": "2026-10-24T10:34:39.332929Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.813902Z"
+   "at": "2026-10-24T10:34:39.332929Z"
   },
   {
    "seq": 115,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_afc6eb9f9957c1f8",
+    "id": "fact_23644bfd8afa351e",
     "about": "stop:ecoloop:S-PU-11",
     "predicate": "approval",
     "value": {
@@ -3075,18 +3075,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.814063Z"
+     "at": "2026-10-24T10:34:39.332975Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.814063Z"
+    "assertedAt": "2026-10-24T10:34:39.332975Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.814063Z"
+   "at": "2026-10-24T10:34:39.332975Z"
   },
   {
    "seq": 116,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_0450c47af0d4c79a",
+    "id": "fact_2a3d3e778b1baeeb",
     "about": "stop:ecoloop:S-PU-12",
     "predicate": "approval",
     "value": {
@@ -3097,18 +3097,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.814192Z"
+     "at": "2026-10-24T10:34:39.333025Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.814192Z"
+    "assertedAt": "2026-10-24T10:34:39.333025Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.814192Z"
+   "at": "2026-10-24T10:34:39.333025Z"
   },
   {
    "seq": 117,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_cbc3aed5201d1dbb",
+    "id": "fact_e37d52f5981adf55",
     "about": "stop:ecoloop:S-PU-10",
     "predicate": "approval",
     "value": {
@@ -3119,18 +3119,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.814337Z"
+     "at": "2026-10-24T10:34:39.333075Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.814337Z"
+    "assertedAt": "2026-10-24T10:34:39.333075Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.814337Z"
+   "at": "2026-10-24T10:34:39.333075Z"
   },
   {
    "seq": 118,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_bdaebea3bdb23152",
+    "id": "fact_70835fa65eb0ac45",
     "about": "stop:ecoloop:S-PU-08",
     "predicate": "approval",
     "value": {
@@ -3143,18 +3143,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.814473Z"
+     "at": "2026-10-24T10:34:39.333128Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.814473Z"
+    "assertedAt": "2026-10-24T10:34:39.333128Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.814473Z"
+   "at": "2026-10-24T10:34:39.333128Z"
   },
   {
    "seq": 119,
    "kind": "assertFact",
    "payload": {
-    "id": "fact_554f9936ce282589",
+    "id": "fact_db6c51b4b80251d0",
     "about": "stop:ecoloop:S-DR-4",
     "predicate": "approval",
     "value": {
@@ -3167,18 +3167,18 @@
     "source": {
      "kind": "agent",
      "by": "Risk",
-     "at": "2026-10-24T10:34:04.814656Z"
+     "at": "2026-10-24T10:34:39.333196Z"
     },
-    "assertedAt": "2026-10-24T10:34:04.814656Z"
+    "assertedAt": "2026-10-24T10:34:39.333196Z"
    },
    "schemaVersion": 1,
-   "at": "2026-10-24T10:34:04.814656Z"
+   "at": "2026-10-24T10:34:39.333196Z"
   }
  ],
  "audit": [
   {
    "seq": 1,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "zone:ecoloop:Molyko (zone)",
@@ -3186,7 +3186,7 @@
   },
   {
    "seq": 2,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "zone:ecoloop:Bonduma (zone)",
@@ -3194,7 +3194,7 @@
   },
   {
    "seq": 3,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "zone:ecoloop:Great Soppo (zone)",
@@ -3202,7 +3202,7 @@
   },
   {
    "seq": 4,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "collector:ecoloop:COL-1 (collector)",
@@ -3210,7 +3210,7 @@
   },
   {
    "seq": 5,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "collector:ecoloop:COL-1 -[home-zone]-> zone:ecoloop:Molyko",
@@ -3218,7 +3218,7 @@
   },
   {
    "seq": 6,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "collector:ecoloop:COL-2 (collector)",
@@ -3226,7 +3226,7 @@
   },
   {
    "seq": 7,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "collector:ecoloop:COL-2 -[home-zone]-> zone:ecoloop:Bonduma",
@@ -3234,7 +3234,7 @@
   },
   {
    "seq": 8,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "collector:ecoloop:COL-3 (collector)",
@@ -3242,7 +3242,7 @@
   },
   {
    "seq": 9,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "collector:ecoloop:COL-3 -[home-zone]-> zone:ecoloop:Great Soppo",
@@ -3250,7 +3250,7 @@
   },
   {
    "seq": 10,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-01 (pickup)",
@@ -3258,7 +3258,7 @@
   },
   {
    "seq": 11,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-01 -[in-zone]-> zone:ecoloop:Molyko",
@@ -3266,7 +3266,7 @@
   },
   {
    "seq": 12,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-02 (pickup)",
@@ -3274,7 +3274,7 @@
   },
   {
    "seq": 13,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-02 -[in-zone]-> zone:ecoloop:Molyko",
@@ -3282,7 +3282,7 @@
   },
   {
    "seq": 14,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-03 (pickup)",
@@ -3290,7 +3290,7 @@
   },
   {
    "seq": 15,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-03 -[in-zone]-> zone:ecoloop:Molyko",
@@ -3298,7 +3298,7 @@
   },
   {
    "seq": 16,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-04 (pickup)",
@@ -3306,7 +3306,7 @@
   },
   {
    "seq": 17,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-04 -[in-zone]-> zone:ecoloop:Molyko",
@@ -3314,7 +3314,7 @@
   },
   {
    "seq": 18,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-05 (pickup)",
@@ -3322,7 +3322,7 @@
   },
   {
    "seq": 19,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-05 -[in-zone]-> zone:ecoloop:Molyko",
@@ -3330,7 +3330,7 @@
   },
   {
    "seq": 20,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-06 (pickup)",
@@ -3338,7 +3338,7 @@
   },
   {
    "seq": 21,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-06 -[in-zone]-> zone:ecoloop:Molyko",
@@ -3346,7 +3346,7 @@
   },
   {
    "seq": 22,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-07 (pickup)",
@@ -3354,7 +3354,7 @@
   },
   {
    "seq": 23,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-07 -[in-zone]-> zone:ecoloop:Bonduma",
@@ -3362,7 +3362,7 @@
   },
   {
    "seq": 24,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-08 (pickup)",
@@ -3370,7 +3370,7 @@
   },
   {
    "seq": 25,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-08 -[in-zone]-> zone:ecoloop:Bonduma",
@@ -3378,7 +3378,7 @@
   },
   {
    "seq": 26,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-09 (pickup)",
@@ -3386,7 +3386,7 @@
   },
   {
    "seq": 27,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-09 -[in-zone]-> zone:ecoloop:Bonduma",
@@ -3394,7 +3394,7 @@
   },
   {
    "seq": 28,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-10 (pickup)",
@@ -3402,7 +3402,7 @@
   },
   {
    "seq": 29,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-10 -[in-zone]-> zone:ecoloop:Great Soppo",
@@ -3410,7 +3410,7 @@
   },
   {
    "seq": 30,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-11 (pickup)",
@@ -3418,7 +3418,7 @@
   },
   {
    "seq": 31,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-11 -[in-zone]-> zone:ecoloop:Great Soppo",
@@ -3426,7 +3426,7 @@
   },
   {
    "seq": 32,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-12 (pickup)",
@@ -3434,7 +3434,7 @@
   },
   {
    "seq": 33,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "relate",
    "actor": "Planner",
    "summary": "pickup:ecoloop:PU-12 -[in-zone]-> zone:ecoloop:Great Soppo",
@@ -3442,7 +3442,7 @@
   },
   {
    "seq": 34,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "queue:ecoloop:deferred (queue)",
@@ -3450,7 +3450,7 @@
   },
   {
    "seq": 35,
-   "at": "2026-10-24T10:34:04.800116Z",
+   "at": "2026-10-24T10:34:39.326709Z",
    "kind": "upsertEntity",
    "actor": "Planner",
    "summary": "queue:ecoloop:removed (queue)",
@@ -3562,7 +3562,7 @@
   },
   {
    "seq": 49,
-   "at": "2026-10-24T10:34:04.803247Z",
+   "at": "2026-10-24T10:34:39.329281Z",
    "kind": "assertFact",
    "actor": "Verification",
    "summary": "dump_report:ingest:DR-1.verification = {\"confidence\":0.91,\"decision_reason\":\"Confidence 0.91 >= 0.7 accept bar. Clear photo of mixed household waste piled at the roadside.\",\"duplicate_of\":null,\"est_kg\":80,\"lat\":4.1541,\"lon\":9.2921,\"model_duplicate\":false,\"model_error\":false,\"model_reason\":\"Clear photo of mixed household waste piled at the roadside.\",\"report_id\":\"DR-1\",\"reported_at\":\"2026-10-23T07:40:00+01:00\",\"status\":\"verified\",\"zone\":\"Molyko\"}",
@@ -3570,7 +3570,7 @@
   },
   {
    "seq": 50,
-   "at": "2026-10-24T10:34:04.803841Z",
+   "at": "2026-10-24T10:34:39.329444Z",
    "kind": "assertFact",
    "actor": "Verification",
    "summary": "dump_report:ingest:DR-4.verification = {\"confidence\":0.78,\"decision_reason\":\"Confidence 0.78 >= 0.7 accept bar. Waste visible near the stream bank but partly hidden by vegetation.\",\"duplicate_of\":null,\"est_kg\":90,\"lat\":4.1438,\"lon\":9.2452,\"model_duplicate\":false,\"model_error\":false,\"model_reason\":\"Waste visible near the stream bank but partly hidden by vegetation.\",\"report_id\":\"DR-4\",\"reported_at\":\"2026-10-23T08:30:00+01:00\",\"status\":\"verified\",\"zone\":\"Great Soppo\"}",
@@ -3578,7 +3578,7 @@
   },
   {
    "seq": 51,
-   "at": "2026-10-24T10:34:04.804153Z",
+   "at": "2026-10-24T10:34:39.329574Z",
    "kind": "assertFact",
    "actor": "Verification",
    "summary": "dump_report:ingest:DR-2.verification = {\"confidence\":0.86,\"decision_reason\":\"16 m and 2.6 h from DR-1 - same pile (the model agrees).\",\"duplicate_of\":\"DR-1\",\"est_kg\":80,\"lat\":4.1542,\"lon\":9.2922,\"model_duplicate\":true,\"model_error\":false,\"model_reason\":\"Appears to be the same roadside pile photographed from another angle.\",\"report_id\":\"DR-2\",\"reported_at\":\"2026-10-23T10:15:00+01:00\",\"status\":\"duplicate\",\"zone\":\"Molyko\"}",
@@ -3586,7 +3586,7 @@
   },
   {
    "seq": 52,
-   "at": "2026-10-24T10:34:04.804455Z",
+   "at": "2026-10-24T10:34:39.329713Z",
    "kind": "assertFact",
    "actor": "Verification",
    "summary": "dump_report:ingest:DR-3.verification = {\"confidence\":0.45,\"decision_reason\":\"Confidence 0.45 is between 0.4 and 0.7: too weak to dispatch, too strong to discard. Image is dark and blurred; waste presence cannot be confirmed.\",\"duplicate_of\":null,\"est_kg\":60,\"lat\":4.1622,\"lon\":9.2789,\"model_duplicate\":false,\"model_error\":false,\"model_reason\":\"Image is dark and blurred; waste presence cannot be confirmed.\",\"report_id\":\"DR-3\",\"reported_at\":\"2026-10-23T19:05:00+01:00\",\"status\":\"needs_review\",\"zone\":\"Bonduma\"}",
@@ -3594,7 +3594,7 @@
   },
   {
    "seq": 53,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-05 (stop)",
@@ -3602,7 +3602,7 @@
   },
   {
    "seq": 54,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-05 -[assigned-to]-> collector:ecoloop:COL-1",
@@ -3610,7 +3610,7 @@
   },
   {
    "seq": 55,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-01 (stop)",
@@ -3618,7 +3618,7 @@
   },
   {
    "seq": 56,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-01 -[assigned-to]-> collector:ecoloop:COL-1",
@@ -3626,7 +3626,7 @@
   },
   {
    "seq": 57,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-04 (stop)",
@@ -3634,7 +3634,7 @@
   },
   {
    "seq": 58,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-04 -[assigned-to]-> collector:ecoloop:COL-1",
@@ -3642,7 +3642,7 @@
   },
   {
    "seq": 59,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-03 (stop)",
@@ -3650,7 +3650,7 @@
   },
   {
    "seq": 60,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-03 -[assigned-to]-> collector:ecoloop:COL-1",
@@ -3658,7 +3658,7 @@
   },
   {
    "seq": 61,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-DR-1 (stop)",
@@ -3666,7 +3666,7 @@
   },
   {
    "seq": 62,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-DR-1 -[assigned-to]-> collector:ecoloop:COL-1",
@@ -3674,7 +3674,7 @@
   },
   {
    "seq": 63,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-06 (stop)",
@@ -3682,7 +3682,7 @@
   },
   {
    "seq": 64,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-06 -[assigned-to]-> collector:ecoloop:COL-1",
@@ -3690,7 +3690,7 @@
   },
   {
    "seq": 65,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-02 (stop)",
@@ -3698,7 +3698,7 @@
   },
   {
    "seq": 66,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-02 -[assigned-to]-> collector:ecoloop:COL-1",
@@ -3706,7 +3706,7 @@
   },
   {
    "seq": 67,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-09 (stop)",
@@ -3714,7 +3714,7 @@
   },
   {
    "seq": 68,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-09 -[assigned-to]-> collector:ecoloop:COL-2",
@@ -3722,7 +3722,7 @@
   },
   {
    "seq": 69,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-08 (stop)",
@@ -3730,7 +3730,7 @@
   },
   {
    "seq": 70,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-08 -[assigned-to]-> collector:ecoloop:COL-2",
@@ -3738,7 +3738,7 @@
   },
   {
    "seq": 71,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-07 (stop)",
@@ -3746,7 +3746,7 @@
   },
   {
    "seq": 72,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-07 -[assigned-to]-> collector:ecoloop:COL-2",
@@ -3754,7 +3754,7 @@
   },
   {
    "seq": 73,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-11 (stop)",
@@ -3762,7 +3762,7 @@
   },
   {
    "seq": 74,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-11 -[assigned-to]-> collector:ecoloop:COL-3",
@@ -3770,7 +3770,7 @@
   },
   {
    "seq": 75,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-DR-4 (stop)",
@@ -3778,7 +3778,7 @@
   },
   {
    "seq": 76,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-DR-4 -[assigned-to]-> collector:ecoloop:COL-3",
@@ -3786,7 +3786,7 @@
   },
   {
    "seq": 77,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-12 (stop)",
@@ -3794,7 +3794,7 @@
   },
   {
    "seq": 78,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-12 -[assigned-to]-> collector:ecoloop:COL-3",
@@ -3802,7 +3802,7 @@
   },
   {
    "seq": 79,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-10 (stop)",
@@ -3810,7 +3810,7 @@
   },
   {
    "seq": 80,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-10 -[assigned-to]-> collector:ecoloop:COL-3",
@@ -3818,7 +3818,7 @@
   },
   {
    "seq": 81,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "plan:ecoloop:v1 (plan)",
@@ -3826,7 +3826,7 @@
   },
   {
    "seq": 82,
-   "at": "2026-10-24T10:34:04.805300Z",
+   "at": "2026-10-24T10:34:39.330033Z",
    "kind": "assertFact",
    "actor": "Dispatch",
    "summary": "plan:ecoloop:v1.loads = {\"COL-1\":400,\"COL-2\":105,\"COL-3\":220}",
@@ -3834,7 +3834,7 @@
   },
   {
    "seq": 83,
-   "at": "2026-10-24T10:34:04.808807Z",
+   "at": "2026-10-24T10:34:39.331103Z",
    "kind": "assertFact",
    "actor": "Evaluator",
    "summary": "plan:ecoloop:v1.evaluation = {\"issues\":[\"over_capacity\"],\"passed\":false}",
@@ -3842,7 +3842,7 @@
   },
   {
    "seq": 84,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-05 (stop)",
@@ -3850,7 +3850,7 @@
   },
   {
    "seq": 85,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-02 (stop)",
@@ -3858,7 +3858,7 @@
   },
   {
    "seq": 86,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-06 (stop)",
@@ -3866,7 +3866,7 @@
   },
   {
    "seq": 87,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-03 (stop)",
@@ -3874,7 +3874,7 @@
   },
   {
    "seq": 88,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-DR-1 (stop)",
@@ -3882,7 +3882,7 @@
   },
   {
    "seq": 89,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-01 (stop)",
@@ -3890,7 +3890,7 @@
   },
   {
    "seq": 90,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-01 -[assigned-to]-> collector:ecoloop:COL-2",
@@ -3898,7 +3898,7 @@
   },
   {
    "seq": 91,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-04 (stop)",
@@ -3906,7 +3906,7 @@
   },
   {
    "seq": 92,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "relate",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-04 -[assigned-to]-> collector:ecoloop:COL-2",
@@ -3914,7 +3914,7 @@
   },
   {
    "seq": 93,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-09 (stop)",
@@ -3922,7 +3922,7 @@
   },
   {
    "seq": 94,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-08 (stop)",
@@ -3930,7 +3930,7 @@
   },
   {
    "seq": 95,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-07 (stop)",
@@ -3938,7 +3938,7 @@
   },
   {
    "seq": 96,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-11 (stop)",
@@ -3946,7 +3946,7 @@
   },
   {
    "seq": 97,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-DR-4 (stop)",
@@ -3954,7 +3954,7 @@
   },
   {
    "seq": 98,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-12 (stop)",
@@ -3962,7 +3962,7 @@
   },
   {
    "seq": 99,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "stop:ecoloop:S-PU-10 (stop)",
@@ -3970,7 +3970,7 @@
   },
   {
    "seq": 100,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "upsertEntity",
    "actor": "Dispatch",
    "summary": "plan:ecoloop:v2 (plan)",
@@ -3978,7 +3978,7 @@
   },
   {
    "seq": 101,
-   "at": "2026-10-24T10:34:04.809634Z",
+   "at": "2026-10-24T10:34:39.331417Z",
    "kind": "assertFact",
    "actor": "Dispatch",
    "summary": "plan:ecoloop:v2.loads = {\"COL-1\":270,\"COL-2\":235,\"COL-3\":220}",
@@ -3986,7 +3986,7 @@
   },
   {
    "seq": 102,
-   "at": "2026-10-24T10:34:04.811994Z",
+   "at": "2026-10-24T10:34:39.332214Z",
    "kind": "assertFact",
    "actor": "Evaluator",
    "summary": "plan:ecoloop:v2.evaluation = {\"issues\":[],\"passed\":true}",
@@ -3994,7 +3994,7 @@
   },
   {
    "seq": 103,
-   "at": "2026-10-24T10:34:04.812747Z",
+   "at": "2026-10-24T10:34:39.332471Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-PU-05.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
@@ -4002,7 +4002,7 @@
   },
   {
    "seq": 104,
-   "at": "2026-10-24T10:34:04.812921Z",
+   "at": "2026-10-24T10:34:39.332543Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-PU-02.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
@@ -4010,7 +4010,7 @@
   },
   {
    "seq": 105,
-   "at": "2026-10-24T10:34:04.813134Z",
+   "at": "2026-10-24T10:34:39.332598Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-PU-06.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
@@ -4018,7 +4018,7 @@
   },
   {
    "seq": 106,
-   "at": "2026-10-24T10:34:04.813266Z",
+   "at": "2026-10-24T10:34:39.332678Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-PU-03.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
@@ -4026,7 +4026,7 @@
   },
   {
    "seq": 107,
-   "at": "2026-10-24T10:34:04.813395Z",
+   "at": "2026-10-24T10:34:39.332731Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-DR-1.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
@@ -4034,7 +4034,7 @@
   },
   {
    "seq": 108,
-   "at": "2026-10-24T10:34:04.813527Z",
+   "at": "2026-10-24T10:34:39.332782Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-PU-01.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
@@ -4042,7 +4042,7 @@
   },
   {
    "seq": 109,
-   "at": "2026-10-24T10:34:04.813663Z",
+   "at": "2026-10-24T10:34:39.332834Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-PU-04.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
@@ -4050,7 +4050,7 @@
   },
   {
    "seq": 110,
-   "at": "2026-10-24T10:34:04.813781Z",
+   "at": "2026-10-24T10:34:39.332882Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-PU-09.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
@@ -4058,7 +4058,7 @@
   },
   {
    "seq": 111,
-   "at": "2026-10-24T10:34:04.813902Z",
+   "at": "2026-10-24T10:34:39.332929Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-PU-07.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
@@ -4066,7 +4066,7 @@
   },
   {
    "seq": 112,
-   "at": "2026-10-24T10:34:04.814063Z",
+   "at": "2026-10-24T10:34:39.332975Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-PU-11.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
@@ -4074,7 +4074,7 @@
   },
   {
    "seq": 113,
-   "at": "2026-10-24T10:34:04.814192Z",
+   "at": "2026-10-24T10:34:39.333025Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-PU-12.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
@@ -4082,7 +4082,7 @@
   },
   {
    "seq": 114,
-   "at": "2026-10-24T10:34:04.814337Z",
+   "at": "2026-10-24T10:34:39.333075Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-PU-10.approval = {\"decision\":\"auto_approved\",\"reasons\":[]}",
@@ -4090,7 +4090,7 @@
   },
   {
    "seq": 115,
-   "at": "2026-10-24T10:34:04.814473Z",
+   "at": "2026-10-24T10:34:39.333128Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-PU-08.approval = {\"decision\":\"human_review\",\"reasons\":[\"volume (40 kg) is an unweighed estimate and COL-2 is at 94% of capacity - an under-estimate would overload it\"]}",
@@ -4098,7 +4098,7 @@
   },
   {
    "seq": 116,
-   "at": "2026-10-24T10:34:04.814656Z",
+   "at": "2026-10-24T10:34:39.333196Z",
    "kind": "assertFact",
    "actor": "Risk",
    "summary": "stop:ecoloop:S-DR-4.approval = {\"decision\":\"human_review\",\"reasons\":[\"photo confidence 0.78 passed verification but is below the 0.85 auto-approve bar\"]}",
